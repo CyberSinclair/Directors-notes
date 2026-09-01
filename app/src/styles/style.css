@@ -1,0 +1,654 @@
+/* =========================================================
+   COLOUR PALETTE
+   ========================================================= */
+
+:root {
+  --background: #f1eee8;
+  --surface: #fffdf8;
+  --dark: #20201d;
+  --dark-soft: #2c2b27;
+
+  --award-gold: #d4a017;
+  --award-silver: #9da3a6;
+
+  --text: #20201d;
+  --muted: #66635d;
+  --border: #d8d2c8;
+
+  --accent: #b33a2f;
+  --accent-dark: #84271f;
+  --accent-light: #f3dfda;
+
+  --white: #fffdf8;
+
+  --shadow: 0 10px 30px rgba(32, 32, 29, 0.12);
+
+  --radius: 0.5rem;
+}
+
+/* =========================================================
+   GLOBAL STYLES
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+
+  color: var(--text);
+  background-color: var(--background);
+}
+
+.film-awards {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  margin-top: 1rem;
+}
+
+.film-awards img {
+  width: 34px;
+  height: 34px;
+
+  object-fit: contain;
+}
+
+.award-gold {
+  color: var(--award-gold);
+}
+
+.award-silver {
+  color: var(--award-silver);
+}
+
+.award-key {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.award-key-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.award-swatch {
+  display: block;
+
+  width: 14px;
+  height: 14px;
+
+  border-radius: 50%;
+}
+
+.award-swatch.award-gold {
+  background-color: var(--award-gold);
+}
+
+.award-swatch.award-silver {
+  background-color: var(--award-silver);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: var(--accent-dark);
+}
+
+/* =========================================================
+   HEADER / HERO
+   ========================================================= */
+
+.site-header {
+  width: 100%;
+
+  padding: 4rem max(1rem, calc((100% - 1100px) / 2)) 5rem;
+
+  color: var(--white);
+  background-color: var(--dark);
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle red glow in the corner */
+
+.site-header::after {
+  content: "";
+
+  position: absolute;
+
+  width: 350px;
+  height: 350px;
+
+  right: -120px;
+  top: -120px;
+
+  background-color: var(--accent);
+
+  border-radius: 50%;
+
+  opacity: 0.15;
+}
+
+/* Keep header content above the decoration */
+
+.site-header > * {
+  position: relative;
+  z-index: 1;
+}
+
+.site-header .eyebrow {
+  color: #e5a29b;
+}
+
+.site-header h1 {
+  max-width: 850px;
+
+  margin: 0;
+
+  font-size: clamp(3rem, 8vw, 6.5rem);
+
+  line-height: 0.9;
+
+  letter-spacing: -0.05em;
+}
+
+.site-header > p:last-child {
+  max-width: 620px;
+
+  margin: 1.75rem 0 0;
+
+  color: #c8c5bd;
+
+  font-size: 1.1rem;
+}
+
+/* =========================================================
+   SMALL UPPERCASE LABELS
+   ========================================================= */
+
+.eyebrow {
+  margin: 0 0 0.6rem;
+
+  color: var(--accent-dark);
+
+  font-size: 0.75rem;
+  font-weight: 700;
+
+  letter-spacing: 0.14em;
+
+  text-transform: uppercase;
+}
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+main {
+  width: min(1100px, calc(100% - 2rem));
+
+  margin: 0 auto;
+}
+
+/* =========================================================
+   SECTION HEADINGS
+   ========================================================= */
+
+.section-heading {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: end;
+
+  gap: 2rem;
+
+  padding: 3.5rem 0 1.25rem;
+
+  border-bottom: 1px solid var(--border);
+}
+
+.section-heading h2 {
+  margin: 0;
+
+  font-size: clamp(2rem, 5vw, 3rem);
+
+  line-height: 1;
+
+  letter-spacing: -0.03em;
+}
+
+.section-heading > p {
+  margin: 0;
+
+  color: var(--muted);
+
+  font-size: 0.9rem;
+}
+
+/* =========================================================
+   LATEST FILMS
+   ========================================================= */
+
+.latest-films {
+  margin-bottom: 2rem;
+}
+
+/* Carousel */
+
+.carousel {
+  display: flex;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  padding: 2rem 0 4rem;
+}
+
+/* Film container */
+
+.film-container {
+  display: flex;
+
+  flex: 1;
+
+  min-width: 0;
+
+  gap: 1.25rem;
+
+  overflow: hidden;
+
+  scroll-behavior: smooth;
+}
+
+/* =========================================================
+   CAROUSEL FILM CARDS
+   ========================================================= */
+
+.film-container .film-card {
+  flex: 0 0 250px;
+
+  min-height: 470px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  border: 0;
+
+  border-radius: var(--radius);
+
+  background-color: var(--surface);
+
+  box-shadow: var(--shadow);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.film-container .film-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow: 0 16px 40px rgba(32, 32, 29, 0.18);
+}
+
+/* Posters */
+
+.film-container .film-card img {
+  width: 100%;
+
+  aspect-ratio: 2 / 3;
+
+  object-fit: cover;
+
+  background-color: var(--dark);
+}
+
+/* Information below poster */
+
+.film-container .film-card .film-meta,
+.film-container .film-card h3,
+.film-container .film-card > p:not(.film-meta),
+.film-container .film-card button {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.film-container .film-card .film-meta {
+  margin-top: 1.25rem;
+}
+
+.film-container .film-card h3 {
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+
+  font-size: 1.4rem;
+
+  line-height: 1.1;
+}
+
+.film-container .film-card > p:not(.film-meta) {
+  color: var(--muted);
+}
+
+/* =========================================================
+   CAROUSEL BUTTONS
+   ========================================================= */
+
+.carousel-button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  width: 48px;
+  height: 48px;
+
+  padding: 0;
+
+  border: 2px solid var(--dark);
+
+  border-radius: 50%;
+
+  color: var(--dark);
+
+  background-color: transparent;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.carousel-button:hover {
+  color: var(--white);
+
+  background-color: var(--accent);
+
+  border-color: var(--accent);
+
+  transform: scale(1.05);
+}
+
+.carousel-button:active {
+  transform: scale(0.95);
+}
+
+.carousel-button:focus-visible {
+  outline: 3px solid var(--accent);
+
+  outline-offset: 4px;
+}
+
+/* =========================================================
+   GENERAL FILM CARDS
+   ========================================================= */
+
+.film-card {
+  display: flex;
+
+  flex-direction: column;
+
+  min-height: 300px;
+
+  padding: 1.5rem;
+
+  border: 1px solid var(--border);
+
+  border-radius: var(--radius);
+
+  background-color: var(--surface);
+
+  box-shadow: 0 4px 15px rgba(32, 32, 29, 0.05);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.film-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 20px 35px rgba(32, 32, 29, 0.18);
+}
+
+/* =========================================================
+   FILM INFORMATION
+   ========================================================= */
+
+.film-card h3 {
+  margin: 0.5rem 0;
+
+  font-size: 1.5rem;
+
+  line-height: 1.1;
+
+  letter-spacing: -0.02em;
+}
+
+.film-card p {
+  margin-top: 0.75rem;
+}
+
+.film-meta {
+  margin: 0;
+
+  color: var(--accent-dark);
+
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  letter-spacing: 0.06em;
+
+  text-transform: uppercase;
+}
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.film-card button {
+  align-self: flex-start;
+
+  margin-top: auto;
+
+  padding: 0.7rem 1rem;
+
+  border: 0;
+
+  border-radius: 0.25rem;
+
+  color: var(--white);
+
+  background-color: var(--accent);
+
+  font: inherit;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.film-card button:hover {
+  background-color: var(--accent-dark);
+
+  transform: translateY(-1px);
+}
+
+.film-card button:focus-visible {
+  outline: 3px solid var(--dark);
+
+  outline-offset: 3px;
+}
+
+/* =========================================================
+   FILM COLLECTION GRID
+   ========================================================= */
+
+.film-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 1.25rem;
+
+  padding: 2rem 0 4rem;
+}
+
+.film-grid .film-card {
+  min-height: 320px;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+  width: min(1100px, calc(100% - 2rem));
+
+  margin: 0 auto;
+
+  padding: 1.5rem 0 3rem;
+
+  border-top: 1px solid var(--border);
+
+  color: var(--muted);
+
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 800px) {
+  .site-header {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .film-container .film-card {
+    flex-basis: 220px;
+  }
+
+  .section-heading {
+    gap: 1rem;
+  }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 650px) {
+  main,
+  footer {
+    width: min(100% - 1.5rem, 1100px);
+  }
+
+  .site-header {
+    padding: 2.5rem 1.5rem 3.5rem;
+  }
+
+  .site-header h1 {
+    font-size: clamp(2.8rem, 14vw, 4.5rem);
+  }
+
+  .section-heading {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 0.5rem;
+
+    padding-top: 2.5rem;
+  }
+
+  .carousel {
+    gap: 0.5rem;
+
+    padding-top: 1.5rem;
+  }
+
+  /*
+    On mobile the card takes up most of the available
+    width, making the carousel feel natural to swipe.
+  */
+
+  .film-container .film-card {
+    flex: 0 0 78%;
+
+    min-height: 430px;
+  }
+
+  .carousel-button {
+    width: 38px;
+    height: 38px;
+
+    font-size: 1rem;
+  }
+
+  .film-grid {
+    grid-template-columns: 1fr;
+
+    padding-top: 1.5rem;
+  }
+
+  .film-card {
+    padding: 1.25rem;
+  }
+}
+
+/* =========================================================
+   ACCESSIBILITY
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .film-card,
+  .carousel-button {
+    transition: none;
+  }
+}
