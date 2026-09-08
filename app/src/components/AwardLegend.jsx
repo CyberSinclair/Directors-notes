@@ -1,4 +1,21 @@
-function AwardLegend({ selectedFilter, setSelectedFilter }) {
+//import { AwardCard } from "./FilmCard";
+
+function AwardLegend({
+  awards,
+  categoryFilter,
+  setCategoryFilter,
+  selectedFilter,
+  setSelectedFilter,
+}) {
+  const filteredAwards = awards.filter((award) => {
+    if (categoryFilter === "") {
+      return true;
+    }
+
+    return award.name === categoryFilter;
+  });
+
+  //console.log("my awards", awards);
   return (
     <div className="award-legend">
       <h3>Awards</h3>
@@ -28,6 +45,17 @@ function AwardLegend({ selectedFilter, setSelectedFilter }) {
           🎖 Award Nominees
         </button>
       </div>
+
+      <h2>Award Categories</h2>
+      {filteredAwards.map((award) => (
+        <button
+          key={award.id}
+          type="button"
+          onClick={() => setCategoryFilter(award.name)}
+        >
+          {award.description}
+        </button>
+      ))}
     </div>
   );
 }

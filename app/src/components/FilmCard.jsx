@@ -8,7 +8,6 @@ function FilmCard({
   runtime,
   image,
   imageAlt,
-  awards = [],
   buttonText = "Add to programme",
 }) {
   return (
@@ -34,3 +33,27 @@ function FilmCard({
 }
 
 export default FilmCard;
+
+// function AwardCard({
+//   awardName,
+//   description,
+//   category,
+//   awardsType,
+//   onClick,
+// }) {
+//   return (
+//     <article className="award-card">
+//       onClick={onClick}
+//       <p className="award-meta">
+//         {category} · {awardsType}
+//       </p>
+
+//       <h3>{awardName}</h3>
+
+//       <p>{description}</p>
+
+//     </article>
+//   );
+// }
+
+// export{ AwardCard};

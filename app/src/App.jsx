@@ -5,20 +5,30 @@ import AwardLegend from "./components/AwardLegend";
 import FilmCollection from "./components/FilmCollection";
 import Footer from "./components/Footer";
 
+import { films } from "./data/films";
+import { awards } from "./data/awards";
+//import { awards } from "./data/awards";
+
 function App() {
   const [selectedFilter, setSelectedFilter] = useState("all");
+  const [categoryFilter, setCategoryFilter] = useState("");
+
+  console.log("categoryFilter", categoryFilter);
 
   return (
     <>
       <Header />
 
       <main>
-        <LatestFilms />
+        <LatestFilms films={films} />
         <AwardLegend
+          awards={awards}
+          categoryFilter={categoryFilter}
+          setCategoryFilter={setCategoryFilter}
           selectedFilter={selectedFilter}
           setSelectedFilter={setSelectedFilter}
         />
-        <FilmCollection selectedFilter={selectedFilter} />
+        <FilmCollection films={films} selectedFilter={selectedFilter} />
       </main>
 
       <Footer />

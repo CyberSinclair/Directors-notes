@@ -1,7 +1,6 @@
-import { films } from "../data/films";
 import FilmCard from "./FilmCard";
 
-function FilmCollection({ selectedFilter }) {
+function FilmCollection({ films, selectedFilter }) {
   const filteredFilms = films.filter((film) => {
     if (selectedFilter === "all") {
       return true;
@@ -9,6 +8,8 @@ function FilmCollection({ selectedFilter }) {
 
     return film.awards.some((award) => award.result === selectedFilter);
   });
+
+  //console.log("filtered", filteredFilms);
 
   return (
     <section aria-labelledby="films-heading">
