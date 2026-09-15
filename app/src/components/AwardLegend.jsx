@@ -55,6 +55,7 @@ function AwardLegend({
         >
           {award.description}
         </button>
+        
       ))}
     </div>
   );

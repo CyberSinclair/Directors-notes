@@ -28,7 +28,7 @@ function App() {
           selectedFilter={selectedFilter}
           setSelectedFilter={setSelectedFilter}
         />
-        <FilmCollection films={films} selectedFilter={selectedFilter} />
+        <FilmCollection films={films} selectedFilter={selectedFilter} categoryFilter={categoryFilter} />
       </main>
 
       <Footer />

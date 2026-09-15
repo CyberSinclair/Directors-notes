@@ -1,26 +1,44 @@
 import FilmCard from "./FilmCard";
 
-function FilmCollection({ films, selectedFilter }) {
-  const filteredFilms = films.filter((film) => {
-    if (selectedFilter === "all") {
-      return true;
-    }
+//<FilmCollection films={films} selectedFilter={selectedFilter} categoryFilter={categoryFilter} />
 
-    return film.awards.some((award) => award.result === selectedFilter);
+function FilmCollection({
+  films,
+  selectedFilter,
+  categoryFilter,
+  count = 0,
+  totalMinutes = 0,
+}) {
+  console.log("cat5egory", categoryFilter);
+  console.log("selected", selectedFilter);
+  const filteredFilms = films.map((film) => {
+    console.log(film);
+    const awardFilms = film.honours.filter(
+      (award) => award.result === "Longlisted",
+    );
+    console.log("awardFilms", awardFilms);
+    return awardFilms;
   });
 
-  //console.log("filtered", filteredFilms);
+  const meetsTarget = totalMinutes >= 30 && totalMinutes <= 45;
+  const filmLabel = count === 1 ? "film" : "films";
 
   return (
     <section aria-labelledby="films-heading">
       <div className="section-heading">
         <div>
-          <p className="eyebrow">Stage 1 Archive</p>
+          <p className="eyebrow">Your films</p>
 
-          <h2 id="films-heading">Choose from six short films</h2>
+          <h2 id="films-heading">Chosen films</h2>
+          <p>
+            {count || 0} {filmLabel} selected · Combined runtime:{" "}
+            {totalMinutes || 0} min
+          </p>
         </div>
 
-        <p>Target running time: 30–45 minutes</p>
+        {meetsTarget
+          ? "The combined runtime fits the 30–45 minute target."
+          : "Aim for a combined runtime of 30–45 minutes."}
       </div>
 
       <div className="film-grid">
@@ -28,12 +46,24 @@ function FilmCollection({ films, selectedFilter }) {
           <FilmCard
             key={film.id}
             title={film.title}
-            genre={film.genre}
+            genre={film.genres?.[0] || "Genre not recorded"}
             country={film.country}
+            director={film.directors?.[0]?.name || "Unknown"}
             year={film.year}
-            description={film.description}
-            rating={film.rating}
-            awards={film.awards}
+            description={film.synopsis}
+            rating={film.rating || "TBC"}
+            honours={
+              ["Winner", "Nominated"].includes(film.honours?.[3]?.result)
+                ? [film.honours[3]]
+                : []
+            }
+            image={film.poster}
+            imageAlt={film.posterAlt}
+            runtime={
+              film.runtimeSeconds
+                ? `${Math.floor(film.runtimeSeconds / 60)} min`
+                : null
+            }
             buttonText="Add to programme"
           />
         ))}
@@ -41,5 +71,4 @@ function FilmCollection({ films, selectedFilter }) {
     </section>
   );
 }
-
 export default FilmCollection;
