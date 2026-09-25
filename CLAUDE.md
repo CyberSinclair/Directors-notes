@@ -20,10 +20,30 @@ npm install
 npm run dev       # Vite dev server with HMR
 npm run build     # production build to app/dist
 npm run preview   # serve the production build
-npm run lint      # oxlint (config: app/.oxlintrc.json — react + oxc plugins)
+npm run lint      # oxlint --deny-warnings (config: app/.oxlintrc.json — react + oxc plugins)
+
+npm test                  # all Vitest tests (unit + integration + regression)
+npm run test:unit         # tests/unit        — utils and FilmCard in isolation
+npm run test:integration  # tests/integration — full <App /> with real data
+npm run test:regression   # tests/regression  — one test per fixed bug + data integrity
+npm run test:coverage     # Vitest with v8 coverage
+npm run test:e2e          # Playwright (e2e/) against a production build, desktop + mobile Chromium
+npx vitest run tests/unit/filterFilms.test.js     # a single test file
+npx vitest run -t "wraps to the start"            # tests matching a name
+npx playwright test e2e/carousel.spec.js          # a single e2e file
 ```
 
-There is no test framework configured.
+First-time e2e setup: `npx playwright install chromium`.
+
+## Testing notes
+
+- Vitest config is in `vite.config.js` (`test` block); setup in `tests/setup.js` stubs `Element.scrollBy/scrollTo` (jsdom has no layout) and clears `localStorage` between tests. Pure-logic test files use `// @vitest-environment node`.
+- Full-app tests render ~190 cards, so `getByRole` over the whole document is slow; `tests/helpers.jsx` finds sections/cards with CSS selectors and only uses role queries inside small containers. Keep new tests on those helpers.
+- New bug fixes should get a regression test in `tests/regression/` with a comment describing the original bug.
+
+## CI
+
+`.github/workflows/ci.yml` calls the shared reusable workflows in [CyberSinclair/ci-workflows](https://github.com/CyberSinclair/ci-workflows) (`@v1`): lint, the three Vitest suites (each as its own step), build and Playwright, plus CodeQL, dependency review and `npm audit`. Those workflows run whichever of the standard npm scripts exist, so keep the script names (`lint`, `test:unit`, `test:integration`, `test:regression`, `build`, `test:e2e`, `test:e2e:install`) stable. Dependabot (`.github/dependabot.yml`) opens weekly update PRs for `app/` npm packages and GitHub Actions.
 
 ## Architecture
 
