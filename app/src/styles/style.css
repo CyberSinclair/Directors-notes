@@ -56,6 +56,36 @@ body {
   margin-top: 1rem;
 }
 
+ul.film-awards {
+  flex-wrap: wrap;
+
+  margin: 0 0 0.75rem;
+  padding: 0;
+
+  list-style: none;
+}
+
+.award-badge {
+  padding: 0.2rem 0.6rem;
+
+  border: 1px solid currentColor;
+  border-radius: 0.75rem;
+
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+/* Gold text alone is too faint on the light card, so darken it. */
+.award-badge.award-gold {
+  color: #8a6508;
+
+  background-color: #fbf1d3;
+}
+
+.award-badge.award-silver {
+  color: var(--muted);
+}
+
 .film-awards img {
   width: 34px;
   height: 34px;
@@ -74,6 +104,14 @@ body {
 .award-key {
   display: flex;
   gap: 1.5rem;
+}
+
+.award-legend button.selected {
+  color: var(--white);
+
+  background-color: var(--accent);
+
+  border-color: var(--accent);
 }
 
 .award-key-item {
@@ -331,6 +369,7 @@ main {
 .film-container .film-card .film-meta,
 .film-container .film-card h3,
 .film-container .film-card > p:not(.film-meta),
+.film-container .film-card .film-awards,
 .film-container .film-card button {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -477,6 +516,16 @@ main {
 /* =========================================================
    BUTTONS
    ========================================================= */
+
+.film-card--selected {
+  outline: 3px solid var(--accent);
+
+  outline-offset: -3px;
+}
+
+.film-card.film-card--selected button {
+  background-color: var(--accent-dark);
+}
 
 .film-card button {
   align-self: flex-start;

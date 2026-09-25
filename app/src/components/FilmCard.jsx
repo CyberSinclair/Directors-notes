@@ -12,7 +12,7 @@ function FilmCard({
   isSelected,
   onToggleSelect = () => {},
   id,
-  honours = [],    
+  honours = [],
   buttonText = "Add to programme",
 }) {
   const cardClass = isSelected
@@ -29,6 +29,20 @@ function FilmCard({
 
       <h3>{title}</h3>
 
+      {honours.length > 0 && (
+        <ul className="film-awards" aria-label="Awards">
+          {honours.map((honour) => (
+            <li
+              key={honour.bodyId}
+              className={`award-badge ${honour.result === "Winner" ? "award-gold" : "award-silver"}`}
+            >
+              {honour.result === "Winner" ? "🏆 Winner" : "🎖 Nominated"} ·{" "}
+              {honour.awardName}
+            </li>
+          ))}
+        </ul>
+      )}
+
       <p>{description}</p>
       <p>Director: {director || "Unknown"}</p>
 
@@ -38,7 +52,7 @@ function FilmCard({
 
       <p>Runtime: {runtime || "Runtime not recorded"}</p>
       <button type="button" onClick={() => onToggleSelect(id)}>
-        {isSelected ? "Remove from programme" : "Add to programme"}
+        {isSelected ? "Remove from programme" : buttonText}
       </button>
     </article>
   );

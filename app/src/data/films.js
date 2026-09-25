@@ -9,6 +9,7 @@ export const films = [
     synopsis:
       "A mapmaker records disappearing paths along a changing coastline.",
     runtimeSeconds: 684,
+    rating: "PG",
     form: "Documentary",
     genres: ["Essay Film"],
     themes: ["Memory", "Place"],
@@ -73,6 +74,7 @@ export const films = [
     synopsis:
       "Two sisters invent a weather forecast to delay a difficult goodbye.",
     runtimeSeconds: 512,
+    rating: "12A",
     form: "Drama",
     genres: ["Coming of Age"],
     themes: ["Family", "Belonging"],
@@ -125,6 +127,14 @@ export const films = [
         year: 2025,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-002",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -137,6 +147,7 @@ export const films = [
     synopsis:
       "Tiny machines continue their routines after the factory falls silent.",
     runtimeSeconds: 438,
+    rating: "U",
     form: "Animation",
     genres: ["Science Fiction"],
     themes: ["Work", "Technology"],
@@ -197,6 +208,14 @@ export const films = [
         year: 2022,
         section: "Official Programme",
       },
+      {
+        filmId: "film-003",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -209,6 +228,7 @@ export const films = [
     synopsis:
       "Musicians transform an overlooked pedestrian tunnel for one evening.",
     runtimeSeconds: 601,
+    rating: "PG",
     form: "Documentary",
     genres: ["Music Film"],
     themes: ["Community", "Place"],
@@ -277,6 +297,14 @@ export const films = [
         year: 2026,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-004",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -289,6 +317,7 @@ export const films = [
     synopsis:
       "A missed bin collection convinces two neighbours that time has stopped.",
     runtimeSeconds: 475,
+    rating: "12A",
     form: "Drama",
     genres: ["Comedy"],
     themes: ["Friendship", "Routine"],
@@ -337,7 +366,7 @@ export const films = [
         filmId: "film-005",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Nominated",
         year: 2024,
         section: "Short Film",
       },
@@ -353,6 +382,7 @@ export const films = [
     synopsis:
       "A dancer reconstructs a family story from gestures and tide marks.",
     runtimeSeconds: null,
+    rating: "15",
     form: "Experimental",
     genres: ["Dance Film"],
     themes: ["Body", "Memory"],
@@ -405,6 +435,14 @@ export const films = [
         year: 2022,
         section: "New Voices",
       },
+      {
+        filmId: "film-006",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2021,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -417,6 +455,7 @@ export const films = [
     synopsis:
       "A gardener receives an impossible order from a town that no longer exists.",
     runtimeSeconds: 730,
+    rating: "12A",
     form: "Drama",
     genres: ["Science Fiction"],
     themes: ["Climate", "Care"],
@@ -477,6 +516,14 @@ export const films = [
         year: 2025,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-007",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -489,6 +536,7 @@ export const films = [
     synopsis:
       "Passengers negotiate an unwritten rule after the last bus changes route.",
     runtimeSeconds: 389,
+    rating: "12A",
     form: "Drama",
     genres: ["Comedy"],
     themes: ["Strangers", "City"],
@@ -557,6 +605,14 @@ export const films = [
         year: 2024,
         section: "New Voices",
       },
+      {
+        filmId: "film-008",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2023,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -569,6 +625,7 @@ export const films = [
     synopsis:
       "A pupil's astronomy homework opens a doorway into a paper universe.",
     runtimeSeconds: 547,
+    rating: "U",
     form: "Animation",
     genres: ["Fantasy"],
     themes: ["Imagination", "Learning"],
@@ -617,7 +674,7 @@ export const films = [
         filmId: "film-009",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Nominated",
         year: 2020,
         section: "Short Film",
       },
@@ -633,6 +690,7 @@ export const films = [
     synopsis:
       "Residents describe a housing estate through the sounds they notice.",
     runtimeSeconds: 802,
+    rating: "PG",
     form: "Documentary",
     genres: ["Architecture"],
     themes: ["City", "Sound"],
@@ -685,6 +743,14 @@ export const films = [
         year: 2023,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-010",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -696,6 +762,7 @@ export const films = [
     editorialType: "Review",
     synopsis: "Two repair-shop workers exchange messages inside broken radios.",
     runtimeSeconds: 655,
+    rating: "12A",
     form: "Drama",
     genres: ["Romance"],
     themes: ["Love", "Objects"],
@@ -755,6 +822,14 @@ export const films = [
         year: 2024,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-011",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -767,6 +842,7 @@ export const films = [
     synopsis:
       "A narrator tests several unreliable methods for disappearing into weather.",
     runtimeSeconds: null,
+    rating: "12A",
     form: "Experimental",
     genres: ["Essay Film"],
     themes: ["Identity", "Landscape"],
@@ -835,6 +911,14 @@ export const films = [
         year: 2026,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-012",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -847,6 +931,7 @@ export const films = [
     synopsis:
       "A curator secretly catalogues mishaps that visitors would rather forget.",
     runtimeSeconds: 596,
+    rating: "12A",
     form: "Drama",
     genres: ["Comedy"],
     themes: ["Memory", "Objects"],
@@ -895,7 +980,7 @@ export const films = [
         filmId: "film-013",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Winner",
         year: 2021,
         section: "Short Film",
       },
@@ -911,6 +996,7 @@ export const films = [
     synopsis:
       "Night-shift workers turn a changeover ritual into a wordless performance.",
     runtimeSeconds: 720,
+    rating: "15",
     form: "Experimental",
     genres: ["Dance Film"],
     themes: ["Work", "Body"],
@@ -963,6 +1049,14 @@ export const films = [
         year: 2024,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-014",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2023,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -975,6 +1069,7 @@ export const films = [
     synopsis:
       "An amateur broadcaster connects isolated growers through a homemade station.",
     runtimeSeconds: 845,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait"],
     themes: ["Community", "Technology"],
@@ -1035,6 +1130,14 @@ export const films = [
         year: 2019,
         section: "Official Programme",
       },
+      {
+        filmId: "film-015",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2019,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1047,6 +1150,7 @@ export const films = [
     synopsis:
       "Weather reports begin predicting events inside an abandoned family home.",
     runtimeSeconds: 533,
+    rating: "15",
     form: "Drama",
     genres: ["Mystery"],
     themes: ["Grief", "Home"],
@@ -1115,6 +1219,14 @@ export const films = [
         year: 2023,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-016",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1127,6 +1239,7 @@ export const films = [
     synopsis:
       "A room changes as winter sunlight crosses it for three brief minutes.",
     runtimeSeconds: 180,
+    rating: "U",
     form: "Animation",
     genres: ["Experimental"],
     themes: ["Light", "Time"],
@@ -1191,6 +1304,7 @@ export const films = [
     synopsis:
       "A community debates what restoration should mean after a quarry closes.",
     runtimeSeconds: 770,
+    rating: "PG",
     form: "Documentary",
     genres: ["Environmental"],
     themes: ["Climate", "Responsibility"],
@@ -1243,6 +1357,14 @@ export const films = [
         year: 2026,
         section: "New Voices",
       },
+      {
+        filmId: "film-018",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1255,6 +1377,7 @@ export const films = [
     synopsis:
       "A junior clerk investigates weekdays that have vanished from the calendar.",
     runtimeSeconds: 490,
+    rating: "12A",
     form: "Drama",
     genres: ["Fantasy"],
     themes: ["Work", "Time"],
@@ -1315,6 +1438,14 @@ export const films = [
         year: 2023,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-019",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2023,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1327,6 +1458,7 @@ export const films = [
     synopsis:
       "Former workers remember the many languages spoken inside a city greenhouse.",
     runtimeSeconds: null,
+    rating: "12A",
     form: "Documentary",
     genres: ["Oral History"],
     themes: ["Migration", "Memory"],
@@ -1395,6 +1527,14 @@ export const films = [
         year: 2021,
         section: "New Voices",
       },
+      {
+        filmId: "film-020",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2020,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1407,6 +1547,7 @@ export const films = [
     synopsis:
       "Friends build a cinema on the beach and race the returning tide.",
     runtimeSeconds: 640,
+    rating: "12A",
     form: "Drama",
     genres: ["Coming of Age"],
     themes: ["Friendship", "Place"],
@@ -1455,7 +1596,7 @@ export const films = [
         filmId: "film-021",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Winner",
         year: 2021,
         section: "Short Film",
       },
@@ -1471,6 +1612,7 @@ export const films = [
     synopsis:
       "A tenant negotiates house rules with a ghost who barely makes an effort.",
     runtimeSeconds: 425,
+    rating: "12A",
     form: "Drama",
     genres: ["Comedy"],
     themes: ["Home", "Strangers"],
@@ -1522,6 +1664,14 @@ export const films = [
         year: 2026,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-022",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1534,6 +1684,7 @@ export const films = [
     synopsis:
       "Students decide which everyday object should represent their century.",
     runtimeSeconds: 705,
+    rating: "12A",
     form: "Drama",
     genres: ["Science Fiction"],
     themes: ["Climate", "Youth"],
@@ -1594,6 +1745,14 @@ export const films = [
         year: 2024,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-023",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1606,6 +1765,7 @@ export const films = [
     synopsis:
       "Dancers search for private space inside a crowded transport network.",
     runtimeSeconds: 358,
+    rating: "15",
     form: "Experimental",
     genres: ["Dance Film"],
     themes: ["Body", "City"],
@@ -1674,6 +1834,14 @@ export const films = [
         year: 2023,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-024",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1686,6 +1854,7 @@ export const films = [
     synopsis:
       "A fictional documentary about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 1212,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait", "Mystery"],
     themes: ["Community", "Home", "Belonging"],
@@ -1734,7 +1903,7 @@ export const films = [
         filmId: "film-025",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Shortlisted",
         year: 2015,
         section: "Short Film",
       },
@@ -1750,6 +1919,7 @@ export const films = [
     synopsis:
       "A fictional drama about grief, time and an unexpected school encounter.",
     runtimeSeconds: null,
+    rating: "15",
     form: "Drama",
     genres: ["Dance Film", "Music Film"],
     themes: ["Grief", "Time", "Work"],
@@ -1802,6 +1972,14 @@ export const films = [
         year: 2023,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-026",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1814,6 +1992,7 @@ export const films = [
     synopsis:
       "A fictional animation about play, memory and an unexpected river encounter.",
     runtimeSeconds: 1378,
+    rating: "U",
     form: "Animation",
     genres: ["Environmental", "Social Realism"],
     themes: ["Play", "Memory", "Technology"],
@@ -1874,6 +2053,14 @@ export const films = [
         year: 2010,
         section: "Official Programme",
       },
+      {
+        filmId: "film-027",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2009,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1886,6 +2073,7 @@ export const films = [
     synopsis:
       "A fictional experimental about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 381,
+    rating: "15",
     form: "Experimental",
     genres: ["Mystery", "Essay Film"],
     themes: ["Power", "Place", "Migration"],
@@ -1954,6 +2142,14 @@ export const films = [
         year: 2017,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-028",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2016,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -1966,6 +2162,7 @@ export const films = [
     synopsis:
       "A fictional documentary about home, family and an unexpected coast encounter.",
     runtimeSeconds: 464,
+    rating: "PG",
     form: "Documentary",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Home", "Family", "Climate"],
@@ -2014,7 +2211,7 @@ export const films = [
         filmId: "film-029",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Shortlisted",
         year: 2023,
         section: "Short Film",
       },
@@ -2030,6 +2227,7 @@ export const films = [
     synopsis:
       "A fictional drama about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 547,
+    rating: "12A",
     form: "Drama",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Time", "Belonging", "Identity"],
@@ -2074,6 +2272,14 @@ export const films = [
         year: 2011,
         section: "New Voices",
       },
+      {
+        filmId: "film-030",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2010,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2086,6 +2292,7 @@ export const films = [
     synopsis:
       "A fictional animation about memory, work and an unexpected forest encounter.",
     runtimeSeconds: 630,
+    rating: "U",
     form: "Animation",
     genres: ["Essay Film", "Comedy"],
     themes: ["Memory", "Work", "Community"],
@@ -2146,6 +2353,14 @@ export const films = [
         year: 2017,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-031",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2017,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2158,6 +2373,7 @@ export const films = [
     synopsis:
       "A fictional experimental about place, technology and an unexpected home encounter.",
     runtimeSeconds: 713,
+    rating: "15",
     form: "Experimental",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Place", "Technology", "Grief"],
@@ -2226,6 +2442,14 @@ export const films = [
         year: 2025,
         section: "New Voices",
       },
+      {
+        filmId: "film-032",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2238,6 +2462,7 @@ export const films = [
     synopsis:
       "A fictional documentary about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 796,
+    rating: "12A",
     form: "Documentary",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Family", "Migration", "Play"],
@@ -2301,6 +2526,7 @@ export const films = [
     synopsis:
       "A fictional drama about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 879,
+    rating: "15",
     form: "Drama",
     genres: ["Comedy", "Environmental"],
     themes: ["Belonging", "Climate", "Power"],
@@ -2362,6 +2588,14 @@ export const films = [
         year: 2019,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-034",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2018,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2374,6 +2608,7 @@ export const films = [
     synopsis:
       "A fictional animation about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: 962,
+    rating: "U",
     form: "Animation",
     genres: ["Portrait", "Mystery"],
     themes: ["Work", "Identity", "Home"],
@@ -2434,6 +2669,14 @@ export const films = [
         year: 2025,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-035",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2446,6 +2689,7 @@ export const films = [
     synopsis:
       "A fictional experimental about technology, community and an unexpected school encounter.",
     runtimeSeconds: 1045,
+    rating: "12A",
     form: "Experimental",
     genres: ["Dance Film", "Music Film"],
     themes: ["Technology", "Community", "Time"],
@@ -2514,6 +2758,14 @@ export const films = [
         year: 2013,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-036",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2012,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2526,6 +2778,7 @@ export const films = [
     synopsis:
       "A fictional documentary about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 1128,
+    rating: "12A",
     form: "Documentary",
     genres: ["Environmental", "Social Realism"],
     themes: ["Migration", "Grief", "Memory"],
@@ -2590,6 +2843,7 @@ export const films = [
     synopsis:
       "A fictional drama about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 1211,
+    rating: "12A",
     form: "Drama",
     genres: ["Mystery", "Essay Film"],
     themes: ["Climate", "Play", "Place"],
@@ -2642,6 +2896,14 @@ export const films = [
         year: 2027,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-038",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2026,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2654,6 +2916,7 @@ export const films = [
     synopsis:
       "A fictional animation about identity, power and an unexpected coast encounter.",
     runtimeSeconds: null,
+    rating: "PG",
     form: "Animation",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Identity", "Power", "Family"],
@@ -2714,6 +2977,14 @@ export const films = [
         year: 2013,
         section: "Official Programme",
       },
+      {
+        filmId: "film-039",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2013,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2726,6 +2997,7 @@ export const films = [
     synopsis:
       "A fictional experimental about community, home and an unexpected city encounter.",
     runtimeSeconds: 1377,
+    rating: "12A",
     form: "Experimental",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Community", "Home", "Belonging"],
@@ -2786,6 +3058,14 @@ export const films = [
         year: 2021,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-040",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2020,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2798,6 +3078,7 @@ export const films = [
     synopsis:
       "A fictional documentary about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 380,
+    rating: "12A",
     form: "Documentary",
     genres: ["Essay Film", "Comedy"],
     themes: ["Grief", "Time", "Work"],
@@ -2846,7 +3127,7 @@ export const films = [
         filmId: "film-041",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Nominated",
         year: 2010,
         section: "Short Film",
       },
@@ -2862,6 +3143,7 @@ export const films = [
     synopsis:
       "A fictional drama about play, memory and an unexpected home encounter.",
     runtimeSeconds: 463,
+    rating: "12A",
     form: "Drama",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Play", "Memory", "Technology"],
@@ -2914,6 +3196,14 @@ export const films = [
         year: 2015,
         section: "New Voices",
       },
+      {
+        filmId: "film-042",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2014,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2926,6 +3216,7 @@ export const films = [
     synopsis:
       "A fictional animation about power, place and an unexpected factory encounter.",
     runtimeSeconds: 546,
+    rating: "PG",
     form: "Animation",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Power", "Place", "Migration"],
@@ -2986,6 +3277,14 @@ export const films = [
         year: 2021,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-043",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2021,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -2998,6 +3297,7 @@ export const films = [
     synopsis:
       "A fictional experimental about home, family and an unexpected island encounter.",
     runtimeSeconds: 629,
+    rating: "12A",
     form: "Experimental",
     genres: ["Comedy", "Environmental"],
     themes: ["Home", "Family", "Climate"],
@@ -3066,6 +3366,14 @@ export const films = [
         year: 2011,
         section: "New Voices",
       },
+      {
+        filmId: "film-044",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2008,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3078,6 +3386,7 @@ export const films = [
     synopsis:
       "A fictional documentary about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 712,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait", "Mystery"],
     themes: ["Time", "Belonging", "Identity"],
@@ -3126,7 +3435,7 @@ export const films = [
         filmId: "film-045",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Nominated",
         year: 2015,
         section: "Short Film",
       },
@@ -3142,6 +3451,7 @@ export const films = [
     synopsis:
       "A fictional drama about memory, work and an unexpected school encounter.",
     runtimeSeconds: 795,
+    rating: "12A",
     form: "Drama",
     genres: ["Dance Film", "Music Film"],
     themes: ["Memory", "Work", "Community"],
@@ -3194,6 +3504,14 @@ export const films = [
         year: 2023,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-046",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3206,6 +3524,7 @@ export const films = [
     synopsis:
       "A fictional animation about place, technology and an unexpected river encounter.",
     runtimeSeconds: 878,
+    rating: "PG",
     form: "Animation",
     genres: ["Environmental", "Social Realism"],
     themes: ["Place", "Technology", "Grief"],
@@ -3265,6 +3584,14 @@ export const films = [
         year: 2010,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-047",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2009,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3277,6 +3604,7 @@ export const films = [
     synopsis:
       "A fictional experimental about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: 961,
+    rating: "15",
     form: "Experimental",
     genres: ["Mystery", "Essay Film"],
     themes: ["Family", "Migration", "Play"],
@@ -3345,6 +3673,14 @@ export const films = [
         year: 2017,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-048",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2016,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3357,6 +3693,7 @@ export const films = [
     synopsis:
       "A fictional documentary about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: 1044,
+    rating: "12A",
     form: "Documentary",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Belonging", "Climate", "Power"],
@@ -3405,7 +3742,7 @@ export const films = [
         filmId: "film-049",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Winner",
         year: 2023,
         section: "Short Film",
       },
@@ -3421,6 +3758,7 @@ export const films = [
     synopsis:
       "A fictional drama about work, identity and an unexpected city encounter.",
     runtimeSeconds: 1127,
+    rating: "12A",
     form: "Drama",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Work", "Identity", "Home"],
@@ -3465,6 +3803,14 @@ export const films = [
         year: 2011,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-050",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2010,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3477,6 +3823,7 @@ export const films = [
     synopsis:
       "A fictional animation about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 1210,
+    rating: "U",
     form: "Animation",
     genres: ["Essay Film", "Comedy"],
     themes: ["Technology", "Community", "Time"],
@@ -3545,6 +3892,14 @@ export const films = [
         year: 2017,
         section: "Official Programme",
       },
+      {
+        filmId: "film-051",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2017,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3557,6 +3912,7 @@ export const films = [
     synopsis:
       "A fictional experimental about migration, grief and an unexpected home encounter.",
     runtimeSeconds: null,
+    rating: "15",
     form: "Experimental",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Migration", "Grief", "Memory"],
@@ -3625,6 +3981,14 @@ export const films = [
         year: 2025,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-052",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3637,6 +4001,7 @@ export const films = [
     synopsis:
       "A fictional documentary about climate, play and an unexpected factory encounter.",
     runtimeSeconds: 1376,
+    rating: "PG",
     form: "Documentary",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Climate", "Play", "Place"],
@@ -3701,6 +4066,7 @@ export const films = [
     synopsis:
       "A fictional drama about identity, power and an unexpected island encounter.",
     runtimeSeconds: 379,
+    rating: "15",
     form: "Drama",
     genres: ["Comedy", "Environmental"],
     themes: ["Identity", "Power", "Family"],
@@ -3753,6 +4119,14 @@ export const films = [
         year: 2019,
         section: "New Voices",
       },
+      {
+        filmId: "film-054",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2018,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3765,6 +4139,7 @@ export const films = [
     synopsis:
       "A fictional animation about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 462,
+    rating: "U",
     form: "Animation",
     genres: ["Portrait", "Mystery"],
     themes: ["Community", "Home", "Belonging"],
@@ -3825,6 +4200,14 @@ export const films = [
         year: 2025,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-055",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3837,6 +4220,7 @@ export const films = [
     synopsis:
       "A fictional experimental about grief, time and an unexpected school encounter.",
     runtimeSeconds: 545,
+    rating: "15",
     form: "Experimental",
     genres: ["Dance Film", "Music Film"],
     themes: ["Grief", "Time", "Work"],
@@ -3905,6 +4289,14 @@ export const films = [
         year: 2013,
         section: "New Voices",
       },
+      {
+        filmId: "film-056",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2012,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -3917,6 +4309,7 @@ export const films = [
     synopsis:
       "A fictional documentary about play, memory and an unexpected river encounter.",
     runtimeSeconds: 628,
+    rating: "PG",
     form: "Documentary",
     genres: ["Environmental", "Social Realism"],
     themes: ["Play", "Memory", "Technology"],
@@ -3965,7 +4358,7 @@ export const films = [
         filmId: "film-057",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Winner",
         year: 2019,
         section: "Short Film",
       },
@@ -3981,6 +4374,7 @@ export const films = [
     synopsis:
       "A fictional drama about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 711,
+    rating: "15",
     form: "Drama",
     genres: ["Mystery", "Essay Film"],
     themes: ["Power", "Place", "Migration"],
@@ -4032,6 +4426,14 @@ export const films = [
         year: 2027,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-058",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2026,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4044,6 +4446,7 @@ export const films = [
     synopsis:
       "A fictional animation about home, family and an unexpected coast encounter.",
     runtimeSeconds: 794,
+    rating: "U",
     form: "Animation",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Home", "Family", "Climate"],
@@ -4104,6 +4507,14 @@ export const films = [
         year: 2013,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-059",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2013,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4116,6 +4527,7 @@ export const films = [
     synopsis:
       "A fictional experimental about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 877,
+    rating: "12A",
     form: "Experimental",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Time", "Belonging", "Identity"],
@@ -4176,6 +4588,14 @@ export const films = [
         year: 2021,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-060",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2020,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4188,6 +4608,7 @@ export const films = [
     synopsis:
       "A fictional documentary about memory, work and an unexpected forest encounter.",
     runtimeSeconds: 960,
+    rating: "PG",
     form: "Documentary",
     genres: ["Essay Film", "Comedy"],
     themes: ["Memory", "Work", "Community"],
@@ -4236,7 +4657,7 @@ export const films = [
         filmId: "film-061",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Shortlisted",
         year: 2010,
         section: "Short Film",
       },
@@ -4252,6 +4673,7 @@ export const films = [
     synopsis:
       "A fictional drama about place, technology and an unexpected home encounter.",
     runtimeSeconds: 1043,
+    rating: "15",
     form: "Drama",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Place", "Technology", "Grief"],
@@ -4304,6 +4726,14 @@ export const films = [
         year: 2015,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-062",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2014,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4316,6 +4746,7 @@ export const films = [
     synopsis:
       "A fictional animation about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 1126,
+    rating: "PG",
     form: "Animation",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Family", "Migration", "Play"],
@@ -4376,6 +4807,14 @@ export const films = [
         year: 2021,
         section: "Official Programme",
       },
+      {
+        filmId: "film-063",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2021,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4388,6 +4827,7 @@ export const films = [
     synopsis:
       "A fictional experimental about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 1209,
+    rating: "15",
     form: "Experimental",
     genres: ["Comedy", "Environmental"],
     themes: ["Belonging", "Climate", "Power"],
@@ -4456,6 +4896,14 @@ export const films = [
         year: 2011,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-064",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2008,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4468,6 +4916,7 @@ export const films = [
     synopsis:
       "A fictional documentary about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: null,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait", "Mystery"],
     themes: ["Work", "Identity", "Home"],
@@ -4516,7 +4965,7 @@ export const films = [
         filmId: "film-065",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Shortlisted",
         year: 2015,
         section: "Short Film",
       },
@@ -4532,6 +4981,7 @@ export const films = [
     synopsis:
       "A fictional drama about technology, community and an unexpected school encounter.",
     runtimeSeconds: 1375,
+    rating: "12A",
     form: "Drama",
     genres: ["Dance Film", "Music Film"],
     themes: ["Technology", "Community", "Time"],
@@ -4584,6 +5034,14 @@ export const films = [
         year: 2023,
         section: "New Voices",
       },
+      {
+        filmId: "film-066",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4596,6 +5054,7 @@ export const films = [
     synopsis:
       "A fictional animation about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 378,
+    rating: "PG",
     form: "Animation",
     genres: ["Environmental", "Social Realism"],
     themes: ["Migration", "Grief", "Memory"],
@@ -4656,6 +5115,14 @@ export const films = [
         year: 2010,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-067",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2009,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4668,6 +5135,7 @@ export const films = [
     synopsis:
       "A fictional experimental about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 461,
+    rating: "12A",
     form: "Experimental",
     genres: ["Mystery", "Essay Film"],
     themes: ["Climate", "Play", "Place"],
@@ -4745,6 +5213,14 @@ export const films = [
         year: 2017,
         section: "New Voices",
       },
+      {
+        filmId: "film-068",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2016,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4757,6 +5233,7 @@ export const films = [
     synopsis:
       "A fictional documentary about identity, power and an unexpected coast encounter.",
     runtimeSeconds: 544,
+    rating: "12A",
     form: "Documentary",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Identity", "Power", "Family"],
@@ -4820,6 +5297,7 @@ export const films = [
     synopsis:
       "A fictional drama about community, home and an unexpected city encounter.",
     runtimeSeconds: 627,
+    rating: "12A",
     form: "Drama",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Community", "Home", "Belonging"],
@@ -4864,6 +5342,14 @@ export const films = [
         year: 2011,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-070",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2010,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4876,6 +5362,7 @@ export const films = [
     synopsis:
       "A fictional animation about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 710,
+    rating: "PG",
     form: "Animation",
     genres: ["Essay Film", "Comedy"],
     themes: ["Grief", "Time", "Work"],
@@ -4936,6 +5423,14 @@ export const films = [
         year: 2017,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-071",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2017,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -4948,6 +5443,7 @@ export const films = [
     synopsis:
       "A fictional experimental about play, memory and an unexpected home encounter.",
     runtimeSeconds: 793,
+    rating: "12A",
     form: "Experimental",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Play", "Memory", "Technology"],
@@ -5016,6 +5512,14 @@ export const films = [
         year: 2025,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-072",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5028,6 +5532,7 @@ export const films = [
     synopsis:
       "A fictional documentary about power, place and an unexpected factory encounter.",
     runtimeSeconds: 876,
+    rating: "12A",
     form: "Documentary",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Power", "Place", "Migration"],
@@ -5092,6 +5597,7 @@ export const films = [
     synopsis:
       "A fictional drama about home, family and an unexpected island encounter.",
     runtimeSeconds: 959,
+    rating: "12A",
     form: "Drama",
     genres: ["Comedy", "Environmental"],
     themes: ["Home", "Family", "Climate"],
@@ -5144,6 +5650,14 @@ export const films = [
         year: 2019,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-074",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2018,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5156,6 +5670,7 @@ export const films = [
     synopsis:
       "A fictional animation about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 1042,
+    rating: "U",
     form: "Animation",
     genres: ["Portrait", "Mystery"],
     themes: ["Time", "Belonging", "Identity"],
@@ -5216,6 +5731,14 @@ export const films = [
         year: 2025,
         section: "Official Programme",
       },
+      {
+        filmId: "film-075",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5228,6 +5751,7 @@ export const films = [
     synopsis:
       "A fictional experimental about memory, work and an unexpected school encounter.",
     runtimeSeconds: 1125,
+    rating: "12A",
     form: "Experimental",
     genres: ["Dance Film", "Music Film"],
     themes: ["Memory", "Work", "Community"],
@@ -5296,6 +5820,14 @@ export const films = [
         year: 2013,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-076",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2012,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5308,6 +5840,7 @@ export const films = [
     synopsis:
       "A fictional documentary about place, technology and an unexpected river encounter.",
     runtimeSeconds: 1208,
+    rating: "12A",
     form: "Documentary",
     genres: ["Environmental", "Social Realism"],
     themes: ["Place", "Technology", "Grief"],
@@ -5356,7 +5889,7 @@ export const films = [
         filmId: "film-077",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Nominated",
         year: 2019,
         section: "Short Film",
       },
@@ -5372,6 +5905,7 @@ export const films = [
     synopsis:
       "A fictional drama about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: null,
+    rating: "15",
     form: "Drama",
     genres: ["Mystery", "Essay Film"],
     themes: ["Family", "Migration", "Play"],
@@ -5424,6 +5958,14 @@ export const films = [
         year: 2027,
         section: "New Voices",
       },
+      {
+        filmId: "film-078",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2026,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5436,6 +5978,7 @@ export const films = [
     synopsis:
       "A fictional animation about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: 1374,
+    rating: "PG",
     form: "Animation",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Belonging", "Climate", "Power"],
@@ -5496,6 +6039,14 @@ export const films = [
         year: 2013,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-079",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2013,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5508,6 +6059,7 @@ export const films = [
     synopsis:
       "A fictional experimental about work, identity and an unexpected city encounter.",
     runtimeSeconds: 377,
+    rating: "12A",
     form: "Experimental",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Work", "Identity", "Home"],
@@ -5568,6 +6120,14 @@ export const films = [
         year: 2021,
         section: "New Voices",
       },
+      {
+        filmId: "film-080",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2020,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5580,6 +6140,7 @@ export const films = [
     synopsis:
       "A fictional documentary about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 460,
+    rating: "PG",
     form: "Documentary",
     genres: ["Essay Film", "Comedy"],
     themes: ["Technology", "Community", "Time"],
@@ -5628,7 +6189,7 @@ export const films = [
         filmId: "film-081",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Nominated",
         year: 2010,
         section: "Short Film",
       },
@@ -5644,6 +6205,7 @@ export const films = [
     synopsis:
       "A fictional drama about migration, grief and an unexpected home encounter.",
     runtimeSeconds: 543,
+    rating: "15",
     form: "Drama",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Migration", "Grief", "Memory"],
@@ -5696,6 +6258,14 @@ export const films = [
         year: 2015,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-082",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2014,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5708,6 +6278,7 @@ export const films = [
     synopsis:
       "A fictional animation about climate, play and an unexpected factory encounter.",
     runtimeSeconds: 626,
+    rating: "U",
     form: "Animation",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Climate", "Play", "Place"],
@@ -5767,6 +6338,14 @@ export const films = [
         year: 2021,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-083",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2021,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5779,6 +6358,7 @@ export const films = [
     synopsis:
       "A fictional experimental about identity, power and an unexpected island encounter.",
     runtimeSeconds: 709,
+    rating: "15",
     form: "Experimental",
     genres: ["Comedy", "Environmental"],
     themes: ["Identity", "Power", "Family"],
@@ -5847,6 +6427,14 @@ export const films = [
         year: 2011,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-084",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2008,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5859,6 +6447,7 @@ export const films = [
     synopsis:
       "A fictional documentary about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 792,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait", "Mystery"],
     themes: ["Community", "Home", "Belonging"],
@@ -5916,7 +6505,7 @@ export const films = [
         filmId: "film-085",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Winner",
         year: 2015,
         section: "Short Film",
       },
@@ -5932,6 +6521,7 @@ export const films = [
     synopsis:
       "A fictional drama about grief, time and an unexpected school encounter.",
     runtimeSeconds: 875,
+    rating: "15",
     form: "Drama",
     genres: ["Dance Film", "Music Film"],
     themes: ["Grief", "Time", "Work"],
@@ -5984,6 +6574,14 @@ export const films = [
         year: 2023,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-086",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -5996,6 +6594,7 @@ export const films = [
     synopsis:
       "A fictional animation about play, memory and an unexpected river encounter.",
     runtimeSeconds: 958,
+    rating: "U",
     form: "Animation",
     genres: ["Environmental", "Social Realism"],
     themes: ["Play", "Memory", "Technology"],
@@ -6056,6 +6655,14 @@ export const films = [
         year: 2010,
         section: "Official Programme",
       },
+      {
+        filmId: "film-087",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2009,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6068,6 +6675,7 @@ export const films = [
     synopsis:
       "A fictional experimental about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 1041,
+    rating: "15",
     form: "Experimental",
     genres: ["Mystery", "Essay Film"],
     themes: ["Power", "Place", "Migration"],
@@ -6136,6 +6744,14 @@ export const films = [
         year: 2017,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-088",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2016,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6148,6 +6764,7 @@ export const films = [
     synopsis:
       "A fictional documentary about home, family and an unexpected coast encounter.",
     runtimeSeconds: 1124,
+    rating: "PG",
     form: "Documentary",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Home", "Family", "Climate"],
@@ -6212,6 +6829,7 @@ export const films = [
     synopsis:
       "A fictional drama about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 1207,
+    rating: "12A",
     form: "Drama",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Time", "Belonging", "Identity"],
@@ -6256,6 +6874,14 @@ export const films = [
         year: 2011,
         section: "New Voices",
       },
+      {
+        filmId: "film-090",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2010,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6268,6 +6894,7 @@ export const films = [
     synopsis:
       "A fictional animation about memory, work and an unexpected forest encounter.",
     runtimeSeconds: null,
+    rating: "U",
     form: "Animation",
     genres: ["Essay Film", "Comedy"],
     themes: ["Memory", "Work", "Community"],
@@ -6328,6 +6955,14 @@ export const films = [
         year: 2017,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-091",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2017,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6340,6 +6975,7 @@ export const films = [
     synopsis:
       "A fictional experimental about place, technology and an unexpected home encounter.",
     runtimeSeconds: 1373,
+    rating: "15",
     form: "Experimental",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Place", "Technology", "Grief"],
@@ -6408,6 +7044,14 @@ export const films = [
         year: 2025,
         section: "New Voices",
       },
+      {
+        filmId: "film-092",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6420,6 +7064,7 @@ export const films = [
     synopsis:
       "A fictional documentary about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 376,
+    rating: "12A",
     form: "Documentary",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Family", "Migration", "Play"],
@@ -6468,7 +7113,7 @@ export const films = [
         filmId: "film-093",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Winner",
         year: 2011,
         section: "Short Film",
       },
@@ -6484,6 +7129,7 @@ export const films = [
     synopsis:
       "A fictional drama about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 459,
+    rating: "15",
     form: "Drama",
     genres: ["Comedy", "Environmental"],
     themes: ["Belonging", "Climate", "Power"],
@@ -6535,6 +7181,14 @@ export const films = [
         year: 2019,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-094",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2018,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6547,6 +7201,7 @@ export const films = [
     synopsis:
       "A fictional animation about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: 542,
+    rating: "U",
     form: "Animation",
     genres: ["Portrait", "Mystery"],
     themes: ["Work", "Identity", "Home"],
@@ -6607,6 +7262,14 @@ export const films = [
         year: 2025,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-095",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6619,6 +7282,7 @@ export const films = [
     synopsis:
       "A fictional experimental about technology, community and an unexpected school encounter.",
     runtimeSeconds: 625,
+    rating: "12A",
     form: "Experimental",
     genres: ["Dance Film", "Music Film"],
     themes: ["Technology", "Community", "Time"],
@@ -6687,6 +7351,14 @@ export const films = [
         year: 2013,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-096",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2012,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6699,6 +7371,7 @@ export const films = [
     synopsis:
       "A fictional documentary about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 708,
+    rating: "12A",
     form: "Documentary",
     genres: ["Environmental", "Social Realism"],
     themes: ["Migration", "Grief", "Memory"],
@@ -6747,7 +7420,7 @@ export const films = [
         filmId: "film-097",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Shortlisted",
         year: 2019,
         section: "Short Film",
       },
@@ -6763,6 +7436,7 @@ export const films = [
     synopsis:
       "A fictional drama about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 791,
+    rating: "12A",
     form: "Drama",
     genres: ["Mystery", "Essay Film"],
     themes: ["Climate", "Play", "Place"],
@@ -6815,6 +7489,14 @@ export const films = [
         year: 2027,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-098",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2026,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6827,6 +7509,7 @@ export const films = [
     synopsis:
       "A fictional animation about identity, power and an unexpected coast encounter.",
     runtimeSeconds: 874,
+    rating: "PG",
     form: "Animation",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Identity", "Power", "Family"],
@@ -6887,6 +7570,14 @@ export const films = [
         year: 2013,
         section: "Official Programme",
       },
+      {
+        filmId: "film-099",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2013,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6899,6 +7590,7 @@ export const films = [
     synopsis:
       "A fictional experimental about community, home and an unexpected city encounter.",
     runtimeSeconds: 957,
+    rating: "12A",
     form: "Experimental",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Community", "Home", "Belonging"],
@@ -6959,6 +7651,14 @@ export const films = [
         year: 2021,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-100",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2020,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -6971,6 +7671,7 @@ export const films = [
     synopsis:
       "A fictional documentary about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 1040,
+    rating: "12A",
     form: "Documentary",
     genres: ["Essay Film", "Comedy"],
     themes: ["Grief", "Time", "Work"],
@@ -7019,7 +7720,7 @@ export const films = [
         filmId: "film-101",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Shortlisted",
         year: 2010,
         section: "Short Film",
       },
@@ -7035,6 +7736,7 @@ export const films = [
     synopsis:
       "A fictional drama about play, memory and an unexpected home encounter.",
     runtimeSeconds: 1123,
+    rating: "12A",
     form: "Drama",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Play", "Memory", "Technology"],
@@ -7096,6 +7798,14 @@ export const films = [
         year: 2015,
         section: "New Voices",
       },
+      {
+        filmId: "film-102",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2014,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7108,6 +7818,7 @@ export const films = [
     synopsis:
       "A fictional animation about power, place and an unexpected factory encounter.",
     runtimeSeconds: 1206,
+    rating: "PG",
     form: "Animation",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Power", "Place", "Migration"],
@@ -7168,6 +7879,14 @@ export const films = [
         year: 2021,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-103",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2021,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7180,6 +7899,7 @@ export const films = [
     synopsis:
       "A fictional experimental about home, family and an unexpected island encounter.",
     runtimeSeconds: null,
+    rating: "12A",
     form: "Experimental",
     genres: ["Comedy", "Environmental"],
     themes: ["Home", "Family", "Climate"],
@@ -7248,6 +7968,14 @@ export const films = [
         year: 2011,
         section: "New Voices",
       },
+      {
+        filmId: "film-104",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2008,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7260,6 +7988,7 @@ export const films = [
     synopsis:
       "A fictional documentary about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 1372,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait", "Mystery"],
     themes: ["Time", "Belonging", "Identity"],
@@ -7323,6 +8052,7 @@ export const films = [
     synopsis:
       "A fictional drama about memory, work and an unexpected school encounter.",
     runtimeSeconds: 375,
+    rating: "12A",
     form: "Drama",
     genres: ["Dance Film", "Music Film"],
     themes: ["Memory", "Work", "Community"],
@@ -7375,6 +8105,14 @@ export const films = [
         year: 2023,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-106",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7387,6 +8125,7 @@ export const films = [
     synopsis:
       "A fictional animation about place, technology and an unexpected river encounter.",
     runtimeSeconds: 458,
+    rating: "PG",
     form: "Animation",
     genres: ["Environmental", "Social Realism"],
     themes: ["Place", "Technology", "Grief"],
@@ -7447,6 +8186,14 @@ export const films = [
         year: 2010,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-107",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2009,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7459,6 +8206,7 @@ export const films = [
     synopsis:
       "A fictional experimental about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: 541,
+    rating: "15",
     form: "Experimental",
     genres: ["Mystery", "Essay Film"],
     themes: ["Family", "Migration", "Play"],
@@ -7527,6 +8275,14 @@ export const films = [
         year: 2017,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-108",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2016,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7539,6 +8295,7 @@ export const films = [
     synopsis:
       "A fictional documentary about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: 624,
+    rating: "12A",
     form: "Documentary",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Belonging", "Climate", "Power"],
@@ -7603,6 +8360,7 @@ export const films = [
     synopsis:
       "A fictional drama about work, identity and an unexpected city encounter.",
     runtimeSeconds: 707,
+    rating: "12A",
     form: "Drama",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Work", "Identity", "Home"],
@@ -7647,6 +8405,14 @@ export const films = [
         year: 2011,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-110",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2010,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7659,6 +8425,7 @@ export const films = [
     synopsis:
       "A fictional animation about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 790,
+    rating: "U",
     form: "Animation",
     genres: ["Essay Film", "Comedy"],
     themes: ["Technology", "Community", "Time"],
@@ -7719,6 +8486,14 @@ export const films = [
         year: 2017,
         section: "Official Programme",
       },
+      {
+        filmId: "film-111",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2017,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7731,6 +8506,7 @@ export const films = [
     synopsis:
       "A fictional experimental about migration, grief and an unexpected home encounter.",
     runtimeSeconds: 873,
+    rating: "15",
     form: "Experimental",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Migration", "Grief", "Memory"],
@@ -7799,6 +8575,14 @@ export const films = [
         year: 2025,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-112",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7811,6 +8595,7 @@ export const films = [
     synopsis:
       "A fictional documentary about climate, play and an unexpected factory encounter.",
     runtimeSeconds: 956,
+    rating: "PG",
     form: "Documentary",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Climate", "Play", "Place"],
@@ -7859,7 +8644,7 @@ export const films = [
         filmId: "film-113",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Nominated",
         year: 2011,
         section: "Short Film",
       },
@@ -7875,6 +8660,7 @@ export const films = [
     synopsis:
       "A fictional drama about identity, power and an unexpected island encounter.",
     runtimeSeconds: 1039,
+    rating: "15",
     form: "Drama",
     genres: ["Comedy", "Environmental"],
     themes: ["Identity", "Power", "Family"],
@@ -7927,6 +8713,14 @@ export const films = [
         year: 2019,
         section: "New Voices",
       },
+      {
+        filmId: "film-114",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2018,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -7939,6 +8733,7 @@ export const films = [
     synopsis:
       "A fictional animation about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 1122,
+    rating: "U",
     form: "Animation",
     genres: ["Portrait", "Mystery"],
     themes: ["Community", "Home", "Belonging"],
@@ -7999,6 +8794,14 @@ export const films = [
         year: 2025,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-115",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8011,6 +8814,7 @@ export const films = [
     synopsis:
       "A fictional experimental about grief, time and an unexpected school encounter.",
     runtimeSeconds: 1205,
+    rating: "15",
     form: "Experimental",
     genres: ["Dance Film", "Music Film"],
     themes: ["Grief", "Time", "Work"],
@@ -8079,6 +8883,14 @@ export const films = [
         year: 2013,
         section: "New Voices",
       },
+      {
+        filmId: "film-116",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2012,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8091,6 +8903,7 @@ export const films = [
     synopsis:
       "A fictional documentary about play, memory and an unexpected river encounter.",
     runtimeSeconds: null,
+    rating: "PG",
     form: "Documentary",
     genres: ["Environmental", "Social Realism"],
     themes: ["Play", "Memory", "Technology"],
@@ -8139,7 +8952,7 @@ export const films = [
         filmId: "film-117",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Nominated",
         year: 2019,
         section: "Short Film",
       },
@@ -8155,6 +8968,7 @@ export const films = [
     synopsis:
       "A fictional drama about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 1371,
+    rating: "15",
     form: "Drama",
     genres: ["Mystery", "Essay Film"],
     themes: ["Power", "Place", "Migration"],
@@ -8207,6 +9021,14 @@ export const films = [
         year: 2027,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-118",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2026,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8219,6 +9041,7 @@ export const films = [
     synopsis:
       "A fictional animation about home, family and an unexpected coast encounter.",
     runtimeSeconds: 374,
+    rating: "U",
     form: "Animation",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Home", "Family", "Climate"],
@@ -8287,6 +9110,14 @@ export const films = [
         year: 2013,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-119",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2013,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8299,6 +9130,7 @@ export const films = [
     synopsis:
       "A fictional experimental about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 457,
+    rating: "12A",
     form: "Experimental",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Time", "Belonging", "Identity"],
@@ -8359,6 +9191,14 @@ export const films = [
         year: 2021,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-120",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2020,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8371,6 +9211,7 @@ export const films = [
     synopsis:
       "A fictional documentary about memory, work and an unexpected forest encounter.",
     runtimeSeconds: 540,
+    rating: "PG",
     form: "Documentary",
     genres: ["Essay Film", "Comedy"],
     themes: ["Memory", "Work", "Community"],
@@ -8419,7 +9260,7 @@ export const films = [
         filmId: "film-121",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Winner",
         year: 2010,
         section: "Short Film",
       },
@@ -8435,6 +9276,7 @@ export const films = [
     synopsis:
       "A fictional drama about place, technology and an unexpected home encounter.",
     runtimeSeconds: 623,
+    rating: "15",
     form: "Drama",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Place", "Technology", "Grief"],
@@ -8487,6 +9329,14 @@ export const films = [
         year: 2015,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-122",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2014,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8499,6 +9349,7 @@ export const films = [
     synopsis:
       "A fictional animation about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 706,
+    rating: "PG",
     form: "Animation",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Family", "Migration", "Play"],
@@ -8559,6 +9410,14 @@ export const films = [
         year: 2021,
         section: "Official Programme",
       },
+      {
+        filmId: "film-123",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2021,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8571,6 +9430,7 @@ export const films = [
     synopsis:
       "A fictional experimental about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 789,
+    rating: "15",
     form: "Experimental",
     genres: ["Comedy", "Environmental"],
     themes: ["Belonging", "Climate", "Power"],
@@ -8639,6 +9499,14 @@ export const films = [
         year: 2011,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-124",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2008,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8651,6 +9519,7 @@ export const films = [
     synopsis:
       "A fictional documentary about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: 872,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait", "Mystery"],
     themes: ["Work", "Identity", "Home"],
@@ -8715,6 +9584,7 @@ export const films = [
     synopsis:
       "A fictional drama about technology, community and an unexpected school encounter.",
     runtimeSeconds: 955,
+    rating: "12A",
     form: "Drama",
     genres: ["Dance Film", "Music Film"],
     themes: ["Technology", "Community", "Time"],
@@ -8767,6 +9637,14 @@ export const films = [
         year: 2023,
         section: "New Voices",
       },
+      {
+        filmId: "film-126",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8779,6 +9657,7 @@ export const films = [
     synopsis:
       "A fictional animation about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 1038,
+    rating: "PG",
     form: "Animation",
     genres: ["Environmental", "Social Realism"],
     themes: ["Migration", "Grief", "Memory"],
@@ -8839,6 +9718,14 @@ export const films = [
         year: 2010,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-127",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2009,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8851,6 +9738,7 @@ export const films = [
     synopsis:
       "A fictional experimental about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 1121,
+    rating: "12A",
     form: "Experimental",
     genres: ["Mystery", "Essay Film"],
     themes: ["Climate", "Play", "Place"],
@@ -8919,6 +9807,14 @@ export const films = [
         year: 2017,
         section: "New Voices",
       },
+      {
+        filmId: "film-128",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2016,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -8931,6 +9827,7 @@ export const films = [
     synopsis:
       "A fictional documentary about identity, power and an unexpected coast encounter.",
     runtimeSeconds: 1204,
+    rating: "12A",
     form: "Documentary",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Identity", "Power", "Family"],
@@ -8979,7 +9876,7 @@ export const films = [
         filmId: "film-129",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Winner",
         year: 2023,
         section: "Short Film",
       },
@@ -8995,6 +9892,7 @@ export const films = [
     synopsis:
       "A fictional drama about community, home and an unexpected city encounter.",
     runtimeSeconds: null,
+    rating: "12A",
     form: "Drama",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Community", "Home", "Belonging"],
@@ -9038,6 +9936,14 @@ export const films = [
         year: 2011,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-130",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2010,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9050,6 +9956,7 @@ export const films = [
     synopsis:
       "A fictional animation about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 1370,
+    rating: "PG",
     form: "Animation",
     genres: ["Essay Film", "Comedy"],
     themes: ["Grief", "Time", "Work"],
@@ -9110,6 +10017,14 @@ export const films = [
         year: 2017,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-131",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2017,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9122,6 +10037,7 @@ export const films = [
     synopsis:
       "A fictional experimental about play, memory and an unexpected home encounter.",
     runtimeSeconds: 373,
+    rating: "12A",
     form: "Experimental",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Play", "Memory", "Technology"],
@@ -9190,6 +10106,14 @@ export const films = [
         year: 2025,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-132",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9202,6 +10126,7 @@ export const films = [
     synopsis:
       "A fictional documentary about power, place and an unexpected factory encounter.",
     runtimeSeconds: 456,
+    rating: "12A",
     form: "Documentary",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Power", "Place", "Migration"],
@@ -9250,7 +10175,7 @@ export const films = [
         filmId: "film-133",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Shortlisted",
         year: 2011,
         section: "Short Film",
       },
@@ -9266,6 +10191,7 @@ export const films = [
     synopsis:
       "A fictional drama about home, family and an unexpected island encounter.",
     runtimeSeconds: 539,
+    rating: "12A",
     form: "Drama",
     genres: ["Comedy", "Environmental"],
     themes: ["Home", "Family", "Climate"],
@@ -9318,6 +10244,14 @@ export const films = [
         year: 2019,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-134",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2018,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9330,6 +10264,7 @@ export const films = [
     synopsis:
       "A fictional animation about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 622,
+    rating: "U",
     form: "Animation",
     genres: ["Portrait", "Mystery"],
     themes: ["Time", "Belonging", "Identity"],
@@ -9390,6 +10325,14 @@ export const films = [
         year: 2025,
         section: "Official Programme",
       },
+      {
+        filmId: "film-135",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9402,6 +10345,7 @@ export const films = [
     synopsis:
       "A fictional experimental about memory, work and an unexpected school encounter.",
     runtimeSeconds: 705,
+    rating: "12A",
     form: "Experimental",
     genres: ["Dance Film", "Music Film"],
     themes: ["Memory", "Work", "Community"],
@@ -9479,6 +10423,14 @@ export const films = [
         year: 2013,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-136",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2012,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9491,6 +10443,7 @@ export const films = [
     synopsis:
       "A fictional documentary about place, technology and an unexpected river encounter.",
     runtimeSeconds: 788,
+    rating: "12A",
     form: "Documentary",
     genres: ["Environmental", "Social Realism"],
     themes: ["Place", "Technology", "Grief"],
@@ -9539,7 +10492,7 @@ export const films = [
         filmId: "film-137",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Shortlisted",
         year: 2019,
         section: "Short Film",
       },
@@ -9555,6 +10508,7 @@ export const films = [
     synopsis:
       "A fictional drama about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: 871,
+    rating: "15",
     form: "Drama",
     genres: ["Mystery", "Essay Film"],
     themes: ["Family", "Migration", "Play"],
@@ -9607,6 +10561,14 @@ export const films = [
         year: 2027,
         section: "New Voices",
       },
+      {
+        filmId: "film-138",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2026,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9619,6 +10581,7 @@ export const films = [
     synopsis:
       "A fictional animation about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: 954,
+    rating: "PG",
     form: "Animation",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Belonging", "Climate", "Power"],
@@ -9679,6 +10642,14 @@ export const films = [
         year: 2013,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-139",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2013,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9691,6 +10662,7 @@ export const films = [
     synopsis:
       "A fictional experimental about work, identity and an unexpected city encounter.",
     runtimeSeconds: 1037,
+    rating: "12A",
     form: "Experimental",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Work", "Identity", "Home"],
@@ -9751,6 +10723,14 @@ export const films = [
         year: 2021,
         section: "New Voices",
       },
+      {
+        filmId: "film-140",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2020,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9763,6 +10743,7 @@ export const films = [
     synopsis:
       "A fictional documentary about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 1120,
+    rating: "PG",
     form: "Documentary",
     genres: ["Essay Film", "Comedy"],
     themes: ["Technology", "Community", "Time"],
@@ -9826,6 +10807,7 @@ export const films = [
     synopsis:
       "A fictional drama about migration, grief and an unexpected home encounter.",
     runtimeSeconds: 1203,
+    rating: "15",
     form: "Drama",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Migration", "Grief", "Memory"],
@@ -9878,6 +10860,14 @@ export const films = [
         year: 2015,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-142",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2014,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9890,6 +10880,7 @@ export const films = [
     synopsis:
       "A fictional animation about climate, play and an unexpected factory encounter.",
     runtimeSeconds: null,
+    rating: "U",
     form: "Animation",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Climate", "Play", "Place"],
@@ -9950,6 +10941,14 @@ export const films = [
         year: 2021,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-143",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2021,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -9962,6 +10961,7 @@ export const films = [
     synopsis:
       "A fictional experimental about identity, power and an unexpected island encounter.",
     runtimeSeconds: 1369,
+    rating: "15",
     form: "Experimental",
     genres: ["Comedy", "Environmental"],
     themes: ["Identity", "Power", "Family"],
@@ -10030,6 +11030,14 @@ export const films = [
         year: 2011,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-144",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2008,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10042,6 +11050,7 @@ export const films = [
     synopsis:
       "A fictional documentary about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 372,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait", "Mystery"],
     themes: ["Community", "Home", "Belonging"],
@@ -10106,6 +11115,7 @@ export const films = [
     synopsis:
       "A fictional drama about grief, time and an unexpected school encounter.",
     runtimeSeconds: 455,
+    rating: "15",
     form: "Drama",
     genres: ["Dance Film", "Music Film"],
     themes: ["Grief", "Time", "Work"],
@@ -10158,6 +11168,14 @@ export const films = [
         year: 2023,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-146",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10170,6 +11188,7 @@ export const films = [
     synopsis:
       "A fictional animation about play, memory and an unexpected river encounter.",
     runtimeSeconds: 538,
+    rating: "U",
     form: "Animation",
     genres: ["Environmental", "Social Realism"],
     themes: ["Play", "Memory", "Technology"],
@@ -10230,6 +11249,14 @@ export const films = [
         year: 2010,
         section: "Official Programme",
       },
+      {
+        filmId: "film-147",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2009,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10242,6 +11269,7 @@ export const films = [
     synopsis:
       "A fictional experimental about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 621,
+    rating: "15",
     form: "Experimental",
     genres: ["Mystery", "Essay Film"],
     themes: ["Power", "Place", "Migration"],
@@ -10310,6 +11338,14 @@ export const films = [
         year: 2017,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-148",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2016,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10322,6 +11358,7 @@ export const films = [
     synopsis:
       "A fictional documentary about home, family and an unexpected coast encounter.",
     runtimeSeconds: 704,
+    rating: "PG",
     form: "Documentary",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Home", "Family", "Climate"],
@@ -10370,7 +11407,7 @@ export const films = [
         filmId: "film-149",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Nominated",
         year: 2023,
         section: "Short Film",
       },
@@ -10386,6 +11423,7 @@ export const films = [
     synopsis:
       "A fictional drama about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 787,
+    rating: "12A",
     form: "Drama",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Time", "Belonging", "Identity"],
@@ -10430,6 +11468,14 @@ export const films = [
         year: 2011,
         section: "New Voices",
       },
+      {
+        filmId: "film-150",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2010,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10442,6 +11488,7 @@ export const films = [
     synopsis:
       "A fictional animation about memory, work and an unexpected forest encounter.",
     runtimeSeconds: 870,
+    rating: "U",
     form: "Animation",
     genres: ["Essay Film", "Comedy"],
     themes: ["Memory", "Work", "Community"],
@@ -10502,6 +11549,14 @@ export const films = [
         year: 2017,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-151",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2017,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10514,6 +11569,7 @@ export const films = [
     synopsis:
       "A fictional experimental about place, technology and an unexpected home encounter.",
     runtimeSeconds: 953,
+    rating: "15",
     form: "Experimental",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Place", "Technology", "Grief"],
@@ -10582,6 +11638,14 @@ export const films = [
         year: 2025,
         section: "New Voices",
       },
+      {
+        filmId: "film-152",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10594,6 +11658,7 @@ export const films = [
     synopsis:
       "A fictional documentary about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 1036,
+    rating: "12A",
     form: "Documentary",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Family", "Migration", "Play"],
@@ -10651,7 +11716,7 @@ export const films = [
         filmId: "film-153",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Nominated",
         year: 2011,
         section: "Short Film",
       },
@@ -10667,6 +11732,7 @@ export const films = [
     synopsis:
       "A fictional drama about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 1119,
+    rating: "15",
     form: "Drama",
     genres: ["Comedy", "Environmental"],
     themes: ["Belonging", "Climate", "Power"],
@@ -10719,6 +11785,14 @@ export const films = [
         year: 2019,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-154",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2018,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10731,6 +11805,7 @@ export const films = [
     synopsis:
       "A fictional animation about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: 1202,
+    rating: "U",
     form: "Animation",
     genres: ["Portrait", "Mystery"],
     themes: ["Work", "Identity", "Home"],
@@ -10790,6 +11865,14 @@ export const films = [
         year: 2025,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-155",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10802,6 +11885,7 @@ export const films = [
     synopsis:
       "A fictional experimental about technology, community and an unexpected school encounter.",
     runtimeSeconds: null,
+    rating: "12A",
     form: "Experimental",
     genres: ["Dance Film", "Music Film"],
     themes: ["Technology", "Community", "Time"],
@@ -10870,6 +11954,14 @@ export const films = [
         year: 2013,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-156",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Nominated",
+        year: 2012,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -10882,6 +11974,7 @@ export const films = [
     synopsis:
       "A fictional documentary about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 1368,
+    rating: "12A",
     form: "Documentary",
     genres: ["Environmental", "Social Realism"],
     themes: ["Migration", "Grief", "Memory"],
@@ -10930,7 +12023,7 @@ export const films = [
         filmId: "film-157",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Winner",
         year: 2019,
         section: "Short Film",
       },
@@ -10946,6 +12039,7 @@ export const films = [
     synopsis:
       "A fictional drama about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 371,
+    rating: "12A",
     form: "Drama",
     genres: ["Mystery", "Essay Film"],
     themes: ["Climate", "Play", "Place"],
@@ -10998,6 +12092,14 @@ export const films = [
         year: 2027,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-158",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2026,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11010,6 +12112,7 @@ export const films = [
     synopsis:
       "A fictional animation about identity, power and an unexpected coast encounter.",
     runtimeSeconds: 454,
+    rating: "PG",
     form: "Animation",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Identity", "Power", "Family"],
@@ -11070,6 +12173,14 @@ export const films = [
         year: 2013,
         section: "Official Programme",
       },
+      {
+        filmId: "film-159",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2013,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11082,6 +12193,7 @@ export const films = [
     synopsis:
       "A fictional experimental about community, home and an unexpected city encounter.",
     runtimeSeconds: 537,
+    rating: "12A",
     form: "Experimental",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Community", "Home", "Belonging"],
@@ -11142,6 +12254,14 @@ export const films = [
         year: 2021,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-160",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2020,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11154,6 +12274,7 @@ export const films = [
     synopsis:
       "A fictional documentary about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 620,
+    rating: "12A",
     form: "Documentary",
     genres: ["Essay Film", "Comedy"],
     themes: ["Grief", "Time", "Work"],
@@ -11218,6 +12339,7 @@ export const films = [
     synopsis:
       "A fictional drama about play, memory and an unexpected home encounter.",
     runtimeSeconds: 703,
+    rating: "12A",
     form: "Drama",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Play", "Memory", "Technology"],
@@ -11270,6 +12392,14 @@ export const films = [
         year: 2015,
         section: "New Voices",
       },
+      {
+        filmId: "film-162",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2014,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11282,6 +12412,7 @@ export const films = [
     synopsis:
       "A fictional animation about power, place and an unexpected factory encounter.",
     runtimeSeconds: 786,
+    rating: "PG",
     form: "Animation",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Power", "Place", "Migration"],
@@ -11342,6 +12473,14 @@ export const films = [
         year: 2021,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-163",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2021,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11354,6 +12493,7 @@ export const films = [
     synopsis:
       "A fictional experimental about home, family and an unexpected island encounter.",
     runtimeSeconds: 869,
+    rating: "12A",
     form: "Experimental",
     genres: ["Comedy", "Environmental"],
     themes: ["Home", "Family", "Climate"],
@@ -11422,6 +12562,14 @@ export const films = [
         year: 2011,
         section: "New Voices",
       },
+      {
+        filmId: "film-164",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2008,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11434,6 +12582,7 @@ export const films = [
     synopsis:
       "A fictional documentary about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 952,
+    rating: "PG",
     form: "Documentary",
     genres: ["Portrait", "Mystery"],
     themes: ["Time", "Belonging", "Identity"],
@@ -11482,7 +12631,7 @@ export const films = [
         filmId: "film-165",
         bodyId: "award-009",
         bodyType: "Award",
-        result: "Shortlisted",
+        result: "Winner",
         year: 2015,
         section: "Short Film",
       },
@@ -11498,6 +12647,7 @@ export const films = [
     synopsis:
       "A fictional drama about memory, work and an unexpected school encounter.",
     runtimeSeconds: 1035,
+    rating: "12A",
     form: "Drama",
     genres: ["Dance Film", "Music Film"],
     themes: ["Memory", "Work", "Community"],
@@ -11549,6 +12699,14 @@ export const films = [
         year: 2023,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-166",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2022,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11561,6 +12719,7 @@ export const films = [
     synopsis:
       "A fictional animation about place, technology and an unexpected river encounter.",
     runtimeSeconds: 1118,
+    rating: "PG",
     form: "Animation",
     genres: ["Environmental", "Social Realism"],
     themes: ["Place", "Technology", "Grief"],
@@ -11621,6 +12780,14 @@ export const films = [
         year: 2010,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-167",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2009,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11633,6 +12800,7 @@ export const films = [
     synopsis:
       "A fictional experimental about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: 1201,
+    rating: "15",
     form: "Experimental",
     genres: ["Mystery", "Essay Film"],
     themes: ["Family", "Migration", "Play"],
@@ -11701,6 +12869,14 @@ export const films = [
         year: 2017,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-168",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Winner",
+        year: 2016,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11713,6 +12889,7 @@ export const films = [
     synopsis:
       "A fictional documentary about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: null,
+    rating: "12A",
     form: "Documentary",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Belonging", "Climate", "Power"],
@@ -11761,7 +12938,7 @@ export const films = [
         filmId: "film-169",
         bodyId: "award-001",
         bodyType: "Award",
-        result: "Nominated",
+        result: "Shortlisted",
         year: 2023,
         section: "Short Film",
       },
@@ -11777,6 +12954,7 @@ export const films = [
     synopsis:
       "A fictional drama about work, identity and an unexpected city encounter.",
     runtimeSeconds: 1367,
+    rating: "12A",
     form: "Drama",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Work", "Identity", "Home"],
@@ -11829,6 +13007,14 @@ export const films = [
         year: 2011,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-170",
+        bodyId: "award-002",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2010,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11841,6 +13027,7 @@ export const films = [
     synopsis:
       "A fictional animation about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 370,
+    rating: "U",
     form: "Animation",
     genres: ["Essay Film", "Comedy"],
     themes: ["Technology", "Community", "Time"],
@@ -11901,6 +13088,14 @@ export const films = [
         year: 2017,
         section: "Official Programme",
       },
+      {
+        filmId: "film-171",
+        bodyId: "award-003",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2017,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11913,6 +13108,7 @@ export const films = [
     synopsis:
       "A fictional experimental about migration, grief and an unexpected home encounter.",
     runtimeSeconds: 453,
+    rating: "15",
     form: "Experimental",
     genres: ["Coming of Age", "Portrait"],
     themes: ["Migration", "Grief", "Memory"],
@@ -11981,6 +13177,14 @@ export const films = [
         year: 2025,
         section: "Animation Competition",
       },
+      {
+        filmId: "film-172",
+        bodyId: "award-004",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2024,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -11993,6 +13197,7 @@ export const films = [
     synopsis:
       "A fictional documentary about climate, play and an unexpected factory encounter.",
     runtimeSeconds: 536,
+    rating: "PG",
     form: "Documentary",
     genres: ["Science Fiction", "Dance Film"],
     themes: ["Climate", "Play", "Place"],
@@ -12041,7 +13246,7 @@ export const films = [
         filmId: "film-173",
         bodyId: "award-005",
         bodyType: "Award",
-        result: "Winner",
+        result: "Shortlisted",
         year: 2011,
         section: "Short Film",
       },
@@ -12057,6 +13262,7 @@ export const films = [
     synopsis:
       "A fictional drama about identity, power and an unexpected island encounter.",
     runtimeSeconds: 619,
+    rating: "15",
     form: "Drama",
     genres: ["Comedy", "Environmental"],
     themes: ["Identity", "Power", "Family"],
@@ -12109,6 +13315,14 @@ export const films = [
         year: 2019,
         section: "New Voices",
       },
+      {
+        filmId: "film-174",
+        bodyId: "award-006",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2018,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -12121,6 +13335,7 @@ export const films = [
     synopsis:
       "A fictional animation about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 702,
+    rating: "U",
     form: "Animation",
     genres: ["Portrait", "Mystery"],
     themes: ["Community", "Home", "Belonging"],
@@ -12181,6 +13396,14 @@ export const films = [
         year: 2025,
         section: "Experimental Programme",
       },
+      {
+        filmId: "film-175",
+        bodyId: "award-007",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2025,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -12193,6 +13416,7 @@ export const films = [
     synopsis:
       "A fictional experimental about grief, time and an unexpected school encounter.",
     runtimeSeconds: 785,
+    rating: "15",
     form: "Experimental",
     genres: ["Dance Film", "Music Film"],
     themes: ["Grief", "Time", "Work"],
@@ -12261,6 +13485,14 @@ export const films = [
         year: 2013,
         section: "New Voices",
       },
+      {
+        filmId: "film-176",
+        bodyId: "award-008",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2012,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -12273,6 +13505,7 @@ export const films = [
     synopsis:
       "A fictional documentary about play, memory and an unexpected river encounter.",
     runtimeSeconds: 868,
+    rating: "PG",
     form: "Documentary",
     genres: ["Environmental", "Social Realism"],
     themes: ["Play", "Memory", "Technology"],
@@ -12336,6 +13569,7 @@ export const films = [
     synopsis:
       "A fictional drama about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 951,
+    rating: "15",
     form: "Drama",
     genres: ["Mystery", "Essay Film"],
     themes: ["Power", "Place", "Migration"],
@@ -12388,6 +13622,14 @@ export const films = [
         year: 2027,
         section: "Audience Selection",
       },
+      {
+        filmId: "film-178",
+        bodyId: "award-010",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2026,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -12400,6 +13642,7 @@ export const films = [
     synopsis:
       "A fictional animation about home, family and an unexpected coast encounter.",
     runtimeSeconds: 1034,
+    rating: "U",
     form: "Animation",
     genres: ["Music Film", "Coming of Age"],
     themes: ["Home", "Family", "Climate"],
@@ -12460,6 +13703,14 @@ export const films = [
         year: 2013,
         section: "Documentary Competition",
       },
+      {
+        filmId: "film-179",
+        bodyId: "award-011",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2013,
+        section: "Short Film",
+      },
     ],
   },
   {
@@ -12472,6 +13723,7 @@ export const films = [
     synopsis:
       "A fictional experimental about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 1117,
+    rating: "12A",
     form: "Experimental",
     genres: ["Social Realism", "Science Fiction"],
     themes: ["Time", "Belonging", "Identity"],
@@ -12531,6 +13783,14 @@ export const films = [
         result: "Shortlisted",
         year: 2021,
         section: "Audience Selection",
+      },
+      {
+        filmId: "film-180",
+        bodyId: "award-012",
+        bodyType: "Award",
+        result: "Shortlisted",
+        year: 2020,
+        section: "Short Film",
       },
     ],
   },

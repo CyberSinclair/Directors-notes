@@ -1,21 +1,11 @@
-//import { AwardCard } from "./FilmCard";
-
 function AwardLegend({
   awards,
-  categoryFilter,
-  setCategoryFilter,
+  categoryFilters,
+  onToggleCategory,
+  onClearCategories,
   selectedFilter,
   setSelectedFilter,
 }) {
-  const filteredAwards = awards.filter((award) => {
-    if (categoryFilter === "") {
-      return true;
-    }
-
-    return award.name === categoryFilter;
-  });
-
-  //console.log("my awards", awards);
   return (
     <div className="award-legend">
       <h3>Awards</h3>
@@ -47,16 +37,26 @@ function AwardLegend({
       </div>
 
       <h2>Award Categories</h2>
-      {filteredAwards.map((award) => (
-        <button
-          key={award.id}
-          type="button"
-          onClick={() => setCategoryFilter(award.name)}
-        >
-          {award.description}
+      {awards.map((award) => {
+        const isActive = categoryFilters.includes(award.name);
+        return (
+          <button
+            key={award.id}
+            type="button"
+            className={isActive ? "selected" : ""}
+            aria-pressed={isActive}
+            onClick={() => onToggleCategory(award.name)}
+          >
+            {award.description}
+          </button>
+        );
+      })}
+
+      {categoryFilters.length > 0 && (
+        <button type="button" onClick={onClearCategories}>
+          ✕ Clear category
         </button>
-        
-      ))}
+      )}
     </div>
   );
 }

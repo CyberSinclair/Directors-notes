@@ -1,27 +1,29 @@
 import FilmCard from "./FilmCard";
+import { filterFilms } from "../utils/filterFilms";
+import { formatRuntime, totalRuntimeMinutes } from "../utils/formatRuntime";
+import { getAwardHonours } from "../utils/awardHonours";
 
-//<FilmCollection films={films} selectedFilter={selectedFilter} categoryFilter={categoryFilter} />
+const filmLabel = (count) => (count === 1 ? "film" : "films");
 
 function FilmCollection({
   films,
+  awards = [],
   selectedFilter,
-  categoryFilter,
-  count = 0,
-  totalMinutes = 0,
+  categoryFilters,
+  programmeIds,
+  onToggleProgramme,
 }) {
-  console.log("cat5egory", categoryFilter);
-  console.log("selected", selectedFilter);
-  const filteredFilms = films.map((film) => {
-    console.log(film);
-    const awardFilms = film.honours.filter(
-      (award) => award.result === "Longlisted",
-    );
-    console.log("awardFilms", awardFilms);
-    return awardFilms;
-  });
+  const filteredFilms = filterFilms(
+    films,
+    awards,
+    selectedFilter,
+    categoryFilters,
+  );
+  const programmeFilms = films.filter((film) => programmeIds.includes(film.id));
 
-  const meetsTarget = totalMinutes >= 30 && totalMinutes <= 45;
-  const filmLabel = count === 1 ? "film" : "films";
+  const shownMinutes = totalRuntimeMinutes(filteredFilms);
+  const programmeMinutes = totalRuntimeMinutes(programmeFilms);
+  const meetsTarget = programmeMinutes >= 30 && programmeMinutes <= 45;
 
   return (
     <section aria-labelledby="films-heading">
@@ -31,20 +33,28 @@ function FilmCollection({
 
           <h2 id="films-heading">Chosen films</h2>
           <p>
-            {count || 0} {filmLabel} selected · Combined runtime:{" "}
-            {totalMinutes || 0} min
+            {filteredFilms.length} {filmLabel(filteredFilms.length)} shown ·
+            Combined runtime: {formatRuntime(shownMinutes)}
+          </p>
+          <p>
+            Your programme: {programmeFilms.length}{" "}
+            {filmLabel(programmeFilms.length)} selected · Combined runtime:{" "}
+            {formatRuntime(programmeMinutes)}
           </p>
         </div>
 
-        {meetsTarget
-          ? "The combined runtime fits the 30–45 minute target."
-          : "Aim for a combined runtime of 30–45 minutes."}
+        {meetsTarget && "The combined runtime fits the 30–45 minute target."}
       </div>
+
+      {filteredFilms.length === 0 && <p>No films match these filters.</p>}
 
       <div className="film-grid">
         {filteredFilms.map((film) => (
           <FilmCard
             key={film.id}
+            id={film.id}
+            isSelected={programmeIds.includes(film.id)}
+            onToggleSelect={onToggleProgramme}
             title={film.title}
             genre={film.genres?.[0] || "Genre not recorded"}
             country={film.country}
@@ -52,11 +62,7 @@ function FilmCollection({
             year={film.year}
             description={film.synopsis}
             rating={film.rating || "TBC"}
-            honours={
-              ["Winner", "Nominated"].includes(film.honours?.[3]?.result)
-                ? [film.honours[3]]
-                : []
-            }
+            honours={getAwardHonours(film, awards)}
             image={film.poster}
             imageAlt={film.posterAlt}
             runtime={
