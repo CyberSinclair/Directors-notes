@@ -43,7 +43,7 @@ First-time e2e setup: `npx playwright install chromium`.
 
 ## CI
 
-`.github/workflows/ci.yml` calls the shared reusable workflows in [CyberSinclair/ci-workflows](https://github.com/CyberSinclair/ci-workflows) (`@v1`): lint, the three Vitest suites (each as its own step), build and Playwright, plus CodeQL, dependency review and `npm audit`. Those workflows run whichever of the standard npm scripts exist, so keep the script names (`lint`, `test:unit`, `test:integration`, `test:regression`, `build`, `test:e2e`, `test:e2e:install`) stable. Dependabot (`.github/dependabot.yml`) opens weekly update PRs for `app/` npm packages and GitHub Actions.
+`.github/workflows/ci.yml` calls the shared reusable workflows in [CyberSinclair/ci-workflows](https://github.com/CyberSinclair/ci-workflows) (pinned to a release's commit hash, e.g. `@<sha> # v1.0.0`; Dependabot bumps it when ci-workflows publishes a release, so don't hand-edit it to a tag): lint, the three Vitest suites (each as its own step), build and Playwright, plus CodeQL, dependency review and `npm audit`. Those workflows run whichever of the standard npm scripts exist, so keep the script names (`lint`, `test:unit`, `test:integration`, `test:regression`, `build`, `test:e2e`, `test:e2e:install`) stable. Dependabot (`.github/dependabot.yml`) opens weekly update PRs for `app/` npm packages and GitHub Actions.
 
 ## Architecture
 
