@@ -1,7 +1,7 @@
 // @vitest-environment node
 // Regression tests for the film data. Several UI bugs were really data gaps,
 // so these guard the data shape the UI depends on.
-import { existsSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
@@ -66,6 +66,23 @@ describe("Regression: film data", () => {
       });
       expect(Array.isArray(film.honours)).toBe(true);
     }
+  });
+
+  // The site reads as a real film site, so nothing a visitor can see (including
+  // poster image titles and the page shell) may call the content fictional.
+  it("never describes the content as fictional", () => {
+    const pattern = /fictional/i;
+    const sources = {
+      "films.js": JSON.stringify(films),
+      "awards.js": JSON.stringify(awards),
+      "index.html": readFileSync(join(publicDir, "../index.html"), "utf8"),
+    };
+    for (const file of readdirSync(join(publicDir, "images"))) {
+      sources[`images/${file}`] = readFileSync(join(publicDir, "images", file), "utf8");
+    }
+
+    const offending = Object.keys(sources).filter((name) => pattern.test(sources[name]));
+    expect(offending).toEqual([]);
   });
 
   // Some films deliberately have no poster (null); any poster that is set
