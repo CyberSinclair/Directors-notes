@@ -1,9 +1,11 @@
 function Footer() {
   return (
     <footer>
+
       <p>
-        A fictional teaching archive inspired by the shape of real film data.
+        An independent film hosting site for the world to enjoy.
       </p>
+
     </footer>
   )
 } export default Footer
