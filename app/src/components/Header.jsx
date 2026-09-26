@@ -1,13 +1,12 @@
 function Header() {
   return (
     <header className="site-header">
-      <p className="eyebrow">Creative Processes Cinema</p>
+      <p className="eyebrow">Fantastic films Fest </p>
 
-      <h1>Short Film Programme Builder</h1>
+      <h1>Focal lens Films</h1>
 
       <p>
-        Explore our latest films and imagine a programme for one memorable
-        screening.
+        The home of independent short films
       </p>
     </header>
   )

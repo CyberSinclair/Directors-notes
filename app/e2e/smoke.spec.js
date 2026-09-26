@@ -11,7 +11,7 @@ test("home page loads without errors", async ({ page }) => {
   await page.goto("/");
 
   await expect(
-    page.getByRole("heading", { level: 1, name: "Short Film Programme Builder" }),
+    page.getByRole("heading", { level: 1, name: "Focal lens Films" }),
   ).toBeVisible();
   await expect(carouselCards(page)).toHaveCount(10);
   await expect(gridCards(page)).toHaveCount(180);

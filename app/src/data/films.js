@@ -32,7 +32,7 @@ export const films = [
         slug: "amina-adebayo",
         primaryRole: "Director",
         biography:
-          "Amina Adebayo is a fictional filmmaker whose work explores memory and place.",
+          "Amina Adebayo is a filmmaker whose work explores memory and place.",
         country: "United Kingdom",
       },
     ],
@@ -97,7 +97,7 @@ export const films = [
         slug: "arlo-doyle",
         primaryRole: "Producer",
         biography:
-          "Arlo Doyle is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Doyle is a filmmaker whose work explores performance and identity.",
         country: "Brazil",
       },
     ],
@@ -170,7 +170,7 @@ export const films = [
         slug: "bea-ghosh",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Ghosh is a fictional filmmaker whose work explores community histories.",
+          "Bea Ghosh is a filmmaker whose work explores community histories.",
         country: "Spain",
       },
     ],
@@ -251,7 +251,7 @@ export const films = [
         slug: "cass-jensen",
         primaryRole: "Editor",
         biography:
-          "Cass Jensen is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Jensen is a filmmaker whose work explores ecology and landscape.",
         country: "Ireland",
       },
     ],
@@ -340,7 +340,7 @@ export const films = [
         slug: "dev-chen",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Chen is a fictional filmmaker whose work explores movement and music.",
+          "Dev Chen is a filmmaker whose work explores movement and music.",
         country: "Japan",
       },
     ],
@@ -405,7 +405,7 @@ export const films = [
         slug: "elian-flores",
         primaryRole: "Animator",
         biography:
-          "Elian Flores is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Flores is a filmmaker whose work explores technology and labour.",
         country: "Netherlands",
       },
     ],
@@ -478,7 +478,7 @@ export const films = [
         slug: "farah-ito",
         primaryRole: "Writer",
         biography:
-          "Farah Ito is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Ito is a filmmaker whose work explores family and belonging.",
         country: "France",
       },
     ],
@@ -559,7 +559,7 @@ export const films = [
         slug: "gia-bell",
         primaryRole: "Production Designer",
         biography:
-          "Gia Bell is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Bell is a filmmaker whose work explores architecture and public space.",
         country: "Nigeria",
       },
     ],
@@ -648,7 +648,7 @@ export const films = [
         slug: "hugo-el-amin",
         primaryRole: "Director",
         biography:
-          "Hugo El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Hugo El-Amin is a filmmaker whose work explores memory and place.",
         country: "Canada",
       },
     ],
@@ -713,7 +713,7 @@ export const films = [
         slug: "imani-haddad",
         primaryRole: "Producer",
         biography:
-          "Imani Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Haddad is a filmmaker whose work explores performance and identity.",
         country: "Germany",
       },
     ],
@@ -865,7 +865,7 @@ export const films = [
         slug: "kira-doyle",
         primaryRole: "Editor",
         biography:
-          "Kira Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Brazil",
       },
     ],
@@ -954,7 +954,7 @@ export const films = [
         slug: "amina-haddad",
         primaryRole: "Sound Designer",
         biography:
-          "Amina Haddad is a fictional filmmaker whose work explores movement and music.",
+          "Amina Haddad is a filmmaker whose work explores movement and music.",
         country: "Spain",
       },
     ],
@@ -1019,7 +1019,7 @@ export const films = [
         slug: "arlo-adebayo",
         primaryRole: "Animator",
         biography:
-          "Arlo Adebayo is a fictional filmmaker whose work explores technology and labour.",
+          "Arlo Adebayo is a filmmaker whose work explores technology and labour.",
         country: "Ireland",
       },
     ],
@@ -1092,7 +1092,7 @@ export const films = [
         slug: "bea-doyle",
         primaryRole: "Writer",
         biography:
-          "Bea Doyle is a fictional filmmaker whose work explores family and belonging.",
+          "Bea Doyle is a filmmaker whose work explores family and belonging.",
         country: "Japan",
       },
     ],
@@ -1173,7 +1173,7 @@ export const films = [
         slug: "cass-ghosh",
         primaryRole: "Production Designer",
         biography:
-          "Cass Ghosh is a fictional filmmaker whose work explores architecture and public space.",
+          "Cass Ghosh is a filmmaker whose work explores architecture and public space.",
         country: "Netherlands",
       },
     ],
@@ -1262,7 +1262,7 @@ export const films = [
         slug: "dev-jensen",
         primaryRole: "Director",
         biography:
-          "Dev Jensen is a fictional filmmaker whose work explores memory and place.",
+          "Dev Jensen is a filmmaker whose work explores memory and place.",
         country: "France",
       },
     ],
@@ -1327,7 +1327,7 @@ export const films = [
         slug: "elian-chen",
         primaryRole: "Producer",
         biography:
-          "Elian Chen is a fictional filmmaker whose work explores performance and identity.",
+          "Elian Chen is a filmmaker whose work explores performance and identity.",
         country: "Nigeria",
       },
     ],
@@ -1400,7 +1400,7 @@ export const films = [
         slug: "farah-flores",
         primaryRole: "Cinematographer",
         biography:
-          "Farah Flores is a fictional filmmaker whose work explores community histories.",
+          "Farah Flores is a filmmaker whose work explores community histories.",
         country: "Canada",
       },
     ],
@@ -1481,7 +1481,7 @@ export const films = [
         slug: "gia-ito",
         primaryRole: "Editor",
         biography:
-          "Gia Ito is a fictional filmmaker whose work explores ecology and landscape.",
+          "Gia Ito is a filmmaker whose work explores ecology and landscape.",
         country: "Germany",
       },
     ],
@@ -1570,7 +1570,7 @@ export const films = [
         slug: "hugo-bell",
         primaryRole: "Sound Designer",
         biography:
-          "Hugo Bell is a fictional filmmaker whose work explores movement and music.",
+          "Hugo Bell is a filmmaker whose work explores movement and music.",
         country: "United Kingdom",
       },
     ],
@@ -1707,7 +1707,7 @@ export const films = [
         slug: "jonah-haddad",
         primaryRole: "Writer",
         biography:
-          "Jonah Haddad is a fictional filmmaker whose work explores family and belonging.",
+          "Jonah Haddad is a filmmaker whose work explores family and belonging.",
         country: "Spain",
       },
     ],
@@ -1788,7 +1788,7 @@ export const films = [
         slug: "kira-adebayo",
         primaryRole: "Production Designer",
         biography:
-          "Kira Adebayo is a fictional filmmaker whose work explores architecture and public space.",
+          "Kira Adebayo is a filmmaker whose work explores architecture and public space.",
         country: "Ireland",
       },
     ],
@@ -1852,7 +1852,7 @@ export const films = [
     published: "2015-01-25",
     editorialType: "Review",
     synopsis:
-      "A fictional documentary about community, home and an unexpected mountain encounter.",
+      "A documentary about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 1212,
     rating: "PG",
     form: "Documentary",
@@ -1877,7 +1877,7 @@ export const films = [
         slug: "amina-el-amin",
         primaryRole: "Director",
         biography:
-          "Amina El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Amina El-Amin is a filmmaker whose work explores memory and place.",
         country: "Japan",
       },
     ],
@@ -1917,7 +1917,7 @@ export const films = [
     published: "2022-02-26",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional drama about grief, time and an unexpected school encounter.",
+      "A drama about grief, time and an unexpected school encounter.",
     runtimeSeconds: null,
     rating: "15",
     form: "Drama",
@@ -1942,7 +1942,7 @@ export const films = [
         slug: "arlo-haddad",
         primaryRole: "Producer",
         biography:
-          "Arlo Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Haddad is a filmmaker whose work explores performance and identity.",
         country: "Netherlands",
       },
     ],
@@ -1990,7 +1990,7 @@ export const films = [
     published: "2009-03-27",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional animation about play, memory and an unexpected river encounter.",
+      "An animation about play, memory and an unexpected river encounter.",
     runtimeSeconds: 1378,
     rating: "U",
     form: "Animation",
@@ -2015,7 +2015,7 @@ export const films = [
         slug: "bea-adebayo",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Adebayo is a fictional filmmaker whose work explores community histories.",
+          "Bea Adebayo is a filmmaker whose work explores community histories.",
         country: "France",
       },
     ],
@@ -2071,7 +2071,7 @@ export const films = [
     published: "2016-04-01",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional experimental about power, place and an unexpected suburb encounter.",
+      "An experimental film about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 381,
     rating: "15",
     form: "Experimental",
@@ -2096,7 +2096,7 @@ export const films = [
         slug: "cass-doyle",
         primaryRole: "Editor",
         biography:
-          "Cass Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Nigeria",
       },
     ],
@@ -2160,7 +2160,7 @@ export const films = [
     published: "2023-05-02",
     editorialType: "Interview",
     synopsis:
-      "A fictional documentary about home, family and an unexpected coast encounter.",
+      "A documentary about home, family and an unexpected coast encounter.",
     runtimeSeconds: 464,
     rating: "PG",
     form: "Documentary",
@@ -2185,7 +2185,7 @@ export const films = [
         slug: "dev-ghosh",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Ghosh is a fictional filmmaker whose work explores movement and music.",
+          "Dev Ghosh is a filmmaker whose work explores movement and music.",
         country: "Canada",
       },
     ],
@@ -2225,7 +2225,7 @@ export const films = [
     published: "2010-06-03",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional drama about time, belonging and an unexpected city encounter.",
+      "A drama about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 547,
     rating: "12A",
     form: "Drama",
@@ -2250,7 +2250,7 @@ export const films = [
         slug: "elian-jensen",
         primaryRole: "Animator",
         biography:
-          "Elian Jensen is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Jensen is a filmmaker whose work explores technology and labour.",
         country: "Germany",
       },
     ],
@@ -2290,7 +2290,7 @@ export const films = [
     published: "2017-07-04",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional animation about memory, work and an unexpected forest encounter.",
+      "An animation about memory, work and an unexpected forest encounter.",
     runtimeSeconds: 630,
     rating: "U",
     form: "Animation",
@@ -2315,7 +2315,7 @@ export const films = [
         slug: "farah-chen",
         primaryRole: "Writer",
         biography:
-          "Farah Chen is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Chen is a filmmaker whose work explores family and belonging.",
         country: "United Kingdom",
       },
     ],
@@ -2371,7 +2371,7 @@ export const films = [
     published: "2024-08-05",
     editorialType: "Review",
     synopsis:
-      "A fictional experimental about place, technology and an unexpected home encounter.",
+      "An experimental film about place, technology and an unexpected home encounter.",
     runtimeSeconds: 713,
     rating: "15",
     form: "Experimental",
@@ -2396,7 +2396,7 @@ export const films = [
         slug: "gia-flores",
         primaryRole: "Production Designer",
         biography:
-          "Gia Flores is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Flores is a filmmaker whose work explores architecture and public space.",
         country: "Brazil",
       },
     ],
@@ -2460,7 +2460,7 @@ export const films = [
     published: "2011-09-06",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional documentary about family, migration and an unexpected factory encounter.",
+      "A documentary about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 796,
     rating: "12A",
     form: "Documentary",
@@ -2524,7 +2524,7 @@ export const films = [
     published: "2018-10-07",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional drama about belonging, climate and an unexpected island encounter.",
+      "A drama about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 879,
     rating: "15",
     form: "Drama",
@@ -2549,7 +2549,7 @@ export const films = [
         slug: "imani-bell",
         primaryRole: "Producer",
         biography:
-          "Imani Bell is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Bell is a filmmaker whose work explores performance and identity.",
         country: "Ireland",
       },
       {
@@ -2558,7 +2558,7 @@ export const films = [
         slug: "dev-chen",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Chen is a fictional filmmaker whose work explores movement and music.",
+          "Dev Chen is a filmmaker whose work explores movement and music.",
         country: "Japan",
       },
     ],
@@ -2606,7 +2606,7 @@ export const films = [
     published: "2025-11-08",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional animation about work, identity and an unexpected mountain encounter.",
+      "An animation about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: 962,
     rating: "U",
     form: "Animation",
@@ -2631,7 +2631,7 @@ export const films = [
         slug: "jonah-el-amin",
         primaryRole: "Cinematographer",
         biography:
-          "Jonah El-Amin is a fictional filmmaker whose work explores community histories.",
+          "Jonah El-Amin is a filmmaker whose work explores community histories.",
         country: "Japan",
       },
     ],
@@ -2687,7 +2687,7 @@ export const films = [
     published: "2012-12-09",
     editorialType: "Interview",
     synopsis:
-      "A fictional experimental about technology, community and an unexpected school encounter.",
+      "An experimental film about technology, community and an unexpected school encounter.",
     runtimeSeconds: 1045,
     rating: "12A",
     form: "Experimental",
@@ -2712,7 +2712,7 @@ export const films = [
         slug: "kira-haddad",
         primaryRole: "Editor",
         biography:
-          "Kira Haddad is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Haddad is a filmmaker whose work explores ecology and landscape.",
         country: "Netherlands",
       },
     ],
@@ -2776,7 +2776,7 @@ export const films = [
     published: "2019-01-10",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional documentary about migration, grief and an unexpected river encounter.",
+      "A documentary about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 1128,
     rating: "12A",
     form: "Documentary",
@@ -2801,7 +2801,7 @@ export const films = [
         slug: "amina-adebayo",
         primaryRole: "Director",
         biography:
-          "Amina Adebayo is a fictional filmmaker whose work explores memory and place.",
+          "Amina Adebayo is a filmmaker whose work explores memory and place.",
         country: "United Kingdom",
       },
     ],
@@ -2841,7 +2841,7 @@ export const films = [
     published: "2026-02-11",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional drama about climate, play and an unexpected suburb encounter.",
+      "A drama about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 1211,
     rating: "12A",
     form: "Drama",
@@ -2866,7 +2866,7 @@ export const films = [
         slug: "arlo-doyle",
         primaryRole: "Producer",
         biography:
-          "Arlo Doyle is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Doyle is a filmmaker whose work explores performance and identity.",
         country: "Brazil",
       },
     ],
@@ -2914,7 +2914,7 @@ export const films = [
     published: "2013-03-12",
     editorialType: "Review",
     synopsis:
-      "A fictional animation about identity, power and an unexpected coast encounter.",
+      "An animation about identity, power and an unexpected coast encounter.",
     runtimeSeconds: null,
     rating: "PG",
     form: "Animation",
@@ -2939,7 +2939,7 @@ export const films = [
         slug: "bea-ghosh",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Ghosh is a fictional filmmaker whose work explores community histories.",
+          "Bea Ghosh is a filmmaker whose work explores community histories.",
         country: "Spain",
       },
     ],
@@ -2995,7 +2995,7 @@ export const films = [
     published: "2020-04-13",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional experimental about community, home and an unexpected city encounter.",
+      "An experimental film about community, home and an unexpected city encounter.",
     runtimeSeconds: 1377,
     rating: "12A",
     form: "Experimental",
@@ -3020,7 +3020,7 @@ export const films = [
         slug: "cass-jensen",
         primaryRole: "Editor",
         biography:
-          "Cass Jensen is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Jensen is a filmmaker whose work explores ecology and landscape.",
         country: "Ireland",
       },
     ],
@@ -3076,7 +3076,7 @@ export const films = [
     published: "2007-05-14",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional documentary about grief, time and an unexpected forest encounter.",
+      "A documentary about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 380,
     rating: "12A",
     form: "Documentary",
@@ -3101,7 +3101,7 @@ export const films = [
         slug: "dev-chen",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Chen is a fictional filmmaker whose work explores movement and music.",
+          "Dev Chen is a filmmaker whose work explores movement and music.",
         country: "Japan",
       },
     ],
@@ -3141,7 +3141,7 @@ export const films = [
     published: "2014-06-15",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional drama about play, memory and an unexpected home encounter.",
+      "A drama about play, memory and an unexpected home encounter.",
     runtimeSeconds: 463,
     rating: "12A",
     form: "Drama",
@@ -3166,7 +3166,7 @@ export const films = [
         slug: "elian-flores",
         primaryRole: "Animator",
         biography:
-          "Elian Flores is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Flores is a filmmaker whose work explores technology and labour.",
         country: "Netherlands",
       },
     ],
@@ -3214,7 +3214,7 @@ export const films = [
     published: "2021-07-16",
     editorialType: "Interview",
     synopsis:
-      "A fictional animation about power, place and an unexpected factory encounter.",
+      "An animation about power, place and an unexpected factory encounter.",
     runtimeSeconds: 546,
     rating: "PG",
     form: "Animation",
@@ -3239,7 +3239,7 @@ export const films = [
         slug: "farah-ito",
         primaryRole: "Writer",
         biography:
-          "Farah Ito is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Ito is a filmmaker whose work explores family and belonging.",
         country: "France",
       },
     ],
@@ -3295,7 +3295,7 @@ export const films = [
     published: "2008-08-17",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional experimental about home, family and an unexpected island encounter.",
+      "An experimental film about home, family and an unexpected island encounter.",
     runtimeSeconds: 629,
     rating: "12A",
     form: "Experimental",
@@ -3320,7 +3320,7 @@ export const films = [
         slug: "gia-bell",
         primaryRole: "Production Designer",
         biography:
-          "Gia Bell is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Bell is a filmmaker whose work explores architecture and public space.",
         country: "Nigeria",
       },
     ],
@@ -3384,7 +3384,7 @@ export const films = [
     published: "2015-09-18",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional documentary about time, belonging and an unexpected mountain encounter.",
+      "A documentary about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 712,
     rating: "PG",
     form: "Documentary",
@@ -3409,7 +3409,7 @@ export const films = [
         slug: "hugo-el-amin",
         primaryRole: "Director",
         biography:
-          "Hugo El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Hugo El-Amin is a filmmaker whose work explores memory and place.",
         country: "Canada",
       },
     ],
@@ -3449,7 +3449,7 @@ export const films = [
     published: "2022-10-19",
     editorialType: "Review",
     synopsis:
-      "A fictional drama about memory, work and an unexpected school encounter.",
+      "A drama about memory, work and an unexpected school encounter.",
     runtimeSeconds: 795,
     rating: "12A",
     form: "Drama",
@@ -3474,7 +3474,7 @@ export const films = [
         slug: "imani-haddad",
         primaryRole: "Producer",
         biography:
-          "Imani Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Haddad is a filmmaker whose work explores performance and identity.",
         country: "Germany",
       },
     ],
@@ -3522,7 +3522,7 @@ export const films = [
     published: "2009-11-20",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional animation about place, technology and an unexpected river encounter.",
+      "An animation about place, technology and an unexpected river encounter.",
     runtimeSeconds: 878,
     rating: "PG",
     form: "Animation",
@@ -3602,7 +3602,7 @@ export const films = [
     published: "2016-12-21",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional experimental about family, migration and an unexpected suburb encounter.",
+      "An experimental film about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: 961,
     rating: "15",
     form: "Experimental",
@@ -3627,7 +3627,7 @@ export const films = [
         slug: "kira-doyle",
         primaryRole: "Editor",
         biography:
-          "Kira Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Brazil",
       },
     ],
@@ -3691,7 +3691,7 @@ export const films = [
     published: "2023-01-22",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional documentary about belonging, climate and an unexpected coast encounter.",
+      "A documentary about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: 1044,
     rating: "12A",
     form: "Documentary",
@@ -3716,7 +3716,7 @@ export const films = [
         slug: "amina-haddad",
         primaryRole: "Sound Designer",
         biography:
-          "Amina Haddad is a fictional filmmaker whose work explores movement and music.",
+          "Amina Haddad is a filmmaker whose work explores movement and music.",
         country: "Spain",
       },
     ],
@@ -3756,7 +3756,7 @@ export const films = [
     published: "2010-02-23",
     editorialType: "Interview",
     synopsis:
-      "A fictional drama about work, identity and an unexpected city encounter.",
+      "A drama about work, identity and an unexpected city encounter.",
     runtimeSeconds: 1127,
     rating: "12A",
     form: "Drama",
@@ -3781,7 +3781,7 @@ export const films = [
         slug: "arlo-adebayo",
         primaryRole: "Animator",
         biography:
-          "Arlo Adebayo is a fictional filmmaker whose work explores technology and labour.",
+          "Arlo Adebayo is a filmmaker whose work explores technology and labour.",
         country: "Ireland",
       },
     ],
@@ -3821,7 +3821,7 @@ export const films = [
     published: "2017-03-24",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional animation about technology, community and an unexpected forest encounter.",
+      "An animation about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 1210,
     rating: "U",
     form: "Animation",
@@ -3846,7 +3846,7 @@ export const films = [
         slug: "bea-doyle",
         primaryRole: "Writer",
         biography:
-          "Bea Doyle is a fictional filmmaker whose work explores family and belonging.",
+          "Bea Doyle is a filmmaker whose work explores family and belonging.",
         country: "Japan",
       },
       {
@@ -3910,7 +3910,7 @@ export const films = [
     published: "2024-04-25",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional experimental about migration, grief and an unexpected home encounter.",
+      "An experimental film about migration, grief and an unexpected home encounter.",
     runtimeSeconds: null,
     rating: "15",
     form: "Experimental",
@@ -3935,7 +3935,7 @@ export const films = [
         slug: "cass-ghosh",
         primaryRole: "Production Designer",
         biography:
-          "Cass Ghosh is a fictional filmmaker whose work explores architecture and public space.",
+          "Cass Ghosh is a filmmaker whose work explores architecture and public space.",
         country: "Netherlands",
       },
     ],
@@ -3999,7 +3999,7 @@ export const films = [
     published: "2011-05-26",
     editorialType: "Review",
     synopsis:
-      "A fictional documentary about climate, play and an unexpected factory encounter.",
+      "A documentary about climate, play and an unexpected factory encounter.",
     runtimeSeconds: 1376,
     rating: "PG",
     form: "Documentary",
@@ -4024,7 +4024,7 @@ export const films = [
         slug: "dev-jensen",
         primaryRole: "Director",
         biography:
-          "Dev Jensen is a fictional filmmaker whose work explores memory and place.",
+          "Dev Jensen is a filmmaker whose work explores memory and place.",
         country: "France",
       },
     ],
@@ -4064,7 +4064,7 @@ export const films = [
     published: "2018-06-27",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional drama about identity, power and an unexpected island encounter.",
+      "A drama about identity, power and an unexpected island encounter.",
     runtimeSeconds: 379,
     rating: "15",
     form: "Drama",
@@ -4089,7 +4089,7 @@ export const films = [
         slug: "elian-chen",
         primaryRole: "Producer",
         biography:
-          "Elian Chen is a fictional filmmaker whose work explores performance and identity.",
+          "Elian Chen is a filmmaker whose work explores performance and identity.",
         country: "Nigeria",
       },
     ],
@@ -4137,7 +4137,7 @@ export const films = [
     published: "2025-07-01",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional animation about community, home and an unexpected mountain encounter.",
+      "An animation about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 462,
     rating: "U",
     form: "Animation",
@@ -4162,7 +4162,7 @@ export const films = [
         slug: "farah-flores",
         primaryRole: "Cinematographer",
         biography:
-          "Farah Flores is a fictional filmmaker whose work explores community histories.",
+          "Farah Flores is a filmmaker whose work explores community histories.",
         country: "Canada",
       },
     ],
@@ -4218,7 +4218,7 @@ export const films = [
     published: "2012-08-02",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional experimental about grief, time and an unexpected school encounter.",
+      "An experimental film about grief, time and an unexpected school encounter.",
     runtimeSeconds: 545,
     rating: "15",
     form: "Experimental",
@@ -4243,7 +4243,7 @@ export const films = [
         slug: "gia-ito",
         primaryRole: "Editor",
         biography:
-          "Gia Ito is a fictional filmmaker whose work explores ecology and landscape.",
+          "Gia Ito is a filmmaker whose work explores ecology and landscape.",
         country: "Germany",
       },
     ],
@@ -4307,7 +4307,7 @@ export const films = [
     published: "2019-09-03",
     editorialType: "Interview",
     synopsis:
-      "A fictional documentary about play, memory and an unexpected river encounter.",
+      "A documentary about play, memory and an unexpected river encounter.",
     runtimeSeconds: 628,
     rating: "PG",
     form: "Documentary",
@@ -4332,7 +4332,7 @@ export const films = [
         slug: "hugo-bell",
         primaryRole: "Sound Designer",
         biography:
-          "Hugo Bell is a fictional filmmaker whose work explores movement and music.",
+          "Hugo Bell is a filmmaker whose work explores movement and music.",
         country: "United Kingdom",
       },
     ],
@@ -4372,7 +4372,7 @@ export const films = [
     published: "2026-10-04",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional drama about power, place and an unexpected suburb encounter.",
+      "A drama about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 711,
     rating: "15",
     form: "Drama",
@@ -4444,7 +4444,7 @@ export const films = [
     published: "2013-11-05",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional animation about home, family and an unexpected coast encounter.",
+      "An animation about home, family and an unexpected coast encounter.",
     runtimeSeconds: 794,
     rating: "U",
     form: "Animation",
@@ -4469,7 +4469,7 @@ export const films = [
         slug: "jonah-haddad",
         primaryRole: "Writer",
         biography:
-          "Jonah Haddad is a fictional filmmaker whose work explores family and belonging.",
+          "Jonah Haddad is a filmmaker whose work explores family and belonging.",
         country: "Spain",
       },
     ],
@@ -4525,7 +4525,7 @@ export const films = [
     published: "2020-12-06",
     editorialType: "Review",
     synopsis:
-      "A fictional experimental about time, belonging and an unexpected city encounter.",
+      "An experimental film about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 877,
     rating: "12A",
     form: "Experimental",
@@ -4550,7 +4550,7 @@ export const films = [
         slug: "kira-adebayo",
         primaryRole: "Production Designer",
         biography:
-          "Kira Adebayo is a fictional filmmaker whose work explores architecture and public space.",
+          "Kira Adebayo is a filmmaker whose work explores architecture and public space.",
         country: "Ireland",
       },
     ],
@@ -4606,7 +4606,7 @@ export const films = [
     published: "2007-01-07",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional documentary about memory, work and an unexpected forest encounter.",
+      "A documentary about memory, work and an unexpected forest encounter.",
     runtimeSeconds: 960,
     rating: "PG",
     form: "Documentary",
@@ -4631,7 +4631,7 @@ export const films = [
         slug: "amina-el-amin",
         primaryRole: "Director",
         biography:
-          "Amina El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Amina El-Amin is a filmmaker whose work explores memory and place.",
         country: "Japan",
       },
     ],
@@ -4671,7 +4671,7 @@ export const films = [
     published: "2014-02-08",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional drama about place, technology and an unexpected home encounter.",
+      "A drama about place, technology and an unexpected home encounter.",
     runtimeSeconds: 1043,
     rating: "15",
     form: "Drama",
@@ -4696,7 +4696,7 @@ export const films = [
         slug: "arlo-haddad",
         primaryRole: "Producer",
         biography:
-          "Arlo Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Haddad is a filmmaker whose work explores performance and identity.",
         country: "Netherlands",
       },
     ],
@@ -4744,7 +4744,7 @@ export const films = [
     published: "2021-03-09",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional animation about family, migration and an unexpected factory encounter.",
+      "An animation about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 1126,
     rating: "PG",
     form: "Animation",
@@ -4769,7 +4769,7 @@ export const films = [
         slug: "bea-adebayo",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Adebayo is a fictional filmmaker whose work explores community histories.",
+          "Bea Adebayo is a filmmaker whose work explores community histories.",
         country: "France",
       },
     ],
@@ -4825,7 +4825,7 @@ export const films = [
     published: "2008-04-10",
     editorialType: "Interview",
     synopsis:
-      "A fictional experimental about belonging, climate and an unexpected island encounter.",
+      "An experimental film about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 1209,
     rating: "15",
     form: "Experimental",
@@ -4850,7 +4850,7 @@ export const films = [
         slug: "cass-doyle",
         primaryRole: "Editor",
         biography:
-          "Cass Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Nigeria",
       },
     ],
@@ -4914,7 +4914,7 @@ export const films = [
     published: "2015-05-11",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional documentary about work, identity and an unexpected mountain encounter.",
+      "A documentary about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: null,
     rating: "PG",
     form: "Documentary",
@@ -4939,7 +4939,7 @@ export const films = [
         slug: "dev-ghosh",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Ghosh is a fictional filmmaker whose work explores movement and music.",
+          "Dev Ghosh is a filmmaker whose work explores movement and music.",
         country: "Canada",
       },
     ],
@@ -4979,7 +4979,7 @@ export const films = [
     published: "2022-06-12",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional drama about technology, community and an unexpected school encounter.",
+      "A drama about technology, community and an unexpected school encounter.",
     runtimeSeconds: 1375,
     rating: "12A",
     form: "Drama",
@@ -5004,7 +5004,7 @@ export const films = [
         slug: "elian-jensen",
         primaryRole: "Animator",
         biography:
-          "Elian Jensen is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Jensen is a filmmaker whose work explores technology and labour.",
         country: "Germany",
       },
     ],
@@ -5052,7 +5052,7 @@ export const films = [
     published: "2009-07-13",
     editorialType: "Review",
     synopsis:
-      "A fictional animation about migration, grief and an unexpected river encounter.",
+      "An animation about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 378,
     rating: "PG",
     form: "Animation",
@@ -5077,7 +5077,7 @@ export const films = [
         slug: "farah-chen",
         primaryRole: "Writer",
         biography:
-          "Farah Chen is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Chen is a filmmaker whose work explores family and belonging.",
         country: "United Kingdom",
       },
     ],
@@ -5133,7 +5133,7 @@ export const films = [
     published: "2016-08-14",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional experimental about climate, play and an unexpected suburb encounter.",
+      "An experimental film about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 461,
     rating: "12A",
     form: "Experimental",
@@ -5158,7 +5158,7 @@ export const films = [
         slug: "gia-flores",
         primaryRole: "Production Designer",
         biography:
-          "Gia Flores is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Flores is a filmmaker whose work explores architecture and public space.",
         country: "Brazil",
       },
       {
@@ -5167,7 +5167,7 @@ export const films = [
         slug: "bea-ghosh",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Ghosh is a fictional filmmaker whose work explores community histories.",
+          "Bea Ghosh is a filmmaker whose work explores community histories.",
         country: "Spain",
       },
     ],
@@ -5231,7 +5231,7 @@ export const films = [
     published: "2023-09-15",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional documentary about identity, power and an unexpected coast encounter.",
+      "A documentary about identity, power and an unexpected coast encounter.",
     runtimeSeconds: 544,
     rating: "12A",
     form: "Documentary",
@@ -5295,7 +5295,7 @@ export const films = [
     published: "2010-10-16",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional drama about community, home and an unexpected city encounter.",
+      "A drama about community, home and an unexpected city encounter.",
     runtimeSeconds: 627,
     rating: "12A",
     form: "Drama",
@@ -5320,7 +5320,7 @@ export const films = [
         slug: "imani-bell",
         primaryRole: "Producer",
         biography:
-          "Imani Bell is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Bell is a filmmaker whose work explores performance and identity.",
         country: "Ireland",
       },
     ],
@@ -5360,7 +5360,7 @@ export const films = [
     published: "2017-11-17",
     editorialType: "Interview",
     synopsis:
-      "A fictional animation about grief, time and an unexpected forest encounter.",
+      "An animation about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 710,
     rating: "PG",
     form: "Animation",
@@ -5385,7 +5385,7 @@ export const films = [
         slug: "jonah-el-amin",
         primaryRole: "Cinematographer",
         biography:
-          "Jonah El-Amin is a fictional filmmaker whose work explores community histories.",
+          "Jonah El-Amin is a filmmaker whose work explores community histories.",
         country: "Japan",
       },
     ],
@@ -5441,7 +5441,7 @@ export const films = [
     published: "2024-12-18",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional experimental about play, memory and an unexpected home encounter.",
+      "An experimental film about play, memory and an unexpected home encounter.",
     runtimeSeconds: 793,
     rating: "12A",
     form: "Experimental",
@@ -5466,7 +5466,7 @@ export const films = [
         slug: "kira-haddad",
         primaryRole: "Editor",
         biography:
-          "Kira Haddad is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Haddad is a filmmaker whose work explores ecology and landscape.",
         country: "Netherlands",
       },
     ],
@@ -5530,7 +5530,7 @@ export const films = [
     published: "2011-01-19",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional documentary about power, place and an unexpected factory encounter.",
+      "A documentary about power, place and an unexpected factory encounter.",
     runtimeSeconds: 876,
     rating: "12A",
     form: "Documentary",
@@ -5555,7 +5555,7 @@ export const films = [
         slug: "amina-adebayo",
         primaryRole: "Director",
         biography:
-          "Amina Adebayo is a fictional filmmaker whose work explores memory and place.",
+          "Amina Adebayo is a filmmaker whose work explores memory and place.",
         country: "United Kingdom",
       },
     ],
@@ -5595,7 +5595,7 @@ export const films = [
     published: "2018-02-20",
     editorialType: "Review",
     synopsis:
-      "A fictional drama about home, family and an unexpected island encounter.",
+      "A drama about home, family and an unexpected island encounter.",
     runtimeSeconds: 959,
     rating: "12A",
     form: "Drama",
@@ -5620,7 +5620,7 @@ export const films = [
         slug: "arlo-doyle",
         primaryRole: "Producer",
         biography:
-          "Arlo Doyle is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Doyle is a filmmaker whose work explores performance and identity.",
         country: "Brazil",
       },
     ],
@@ -5668,7 +5668,7 @@ export const films = [
     published: "2025-03-21",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional animation about time, belonging and an unexpected mountain encounter.",
+      "An animation about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 1042,
     rating: "U",
     form: "Animation",
@@ -5693,7 +5693,7 @@ export const films = [
         slug: "bea-ghosh",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Ghosh is a fictional filmmaker whose work explores community histories.",
+          "Bea Ghosh is a filmmaker whose work explores community histories.",
         country: "Spain",
       },
     ],
@@ -5749,7 +5749,7 @@ export const films = [
     published: "2012-04-22",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional experimental about memory, work and an unexpected school encounter.",
+      "An experimental film about memory, work and an unexpected school encounter.",
     runtimeSeconds: 1125,
     rating: "12A",
     form: "Experimental",
@@ -5774,7 +5774,7 @@ export const films = [
         slug: "cass-jensen",
         primaryRole: "Editor",
         biography:
-          "Cass Jensen is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Jensen is a filmmaker whose work explores ecology and landscape.",
         country: "Ireland",
       },
     ],
@@ -5838,7 +5838,7 @@ export const films = [
     published: "2019-05-23",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional documentary about place, technology and an unexpected river encounter.",
+      "A documentary about place, technology and an unexpected river encounter.",
     runtimeSeconds: 1208,
     rating: "12A",
     form: "Documentary",
@@ -5863,7 +5863,7 @@ export const films = [
         slug: "dev-chen",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Chen is a fictional filmmaker whose work explores movement and music.",
+          "Dev Chen is a filmmaker whose work explores movement and music.",
         country: "Japan",
       },
     ],
@@ -5903,7 +5903,7 @@ export const films = [
     published: "2026-06-24",
     editorialType: "Interview",
     synopsis:
-      "A fictional drama about family, migration and an unexpected suburb encounter.",
+      "A drama about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: null,
     rating: "15",
     form: "Drama",
@@ -5928,7 +5928,7 @@ export const films = [
         slug: "elian-flores",
         primaryRole: "Animator",
         biography:
-          "Elian Flores is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Flores is a filmmaker whose work explores technology and labour.",
         country: "Netherlands",
       },
     ],
@@ -5976,7 +5976,7 @@ export const films = [
     published: "2013-07-25",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional animation about belonging, climate and an unexpected coast encounter.",
+      "An animation about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: 1374,
     rating: "PG",
     form: "Animation",
@@ -6001,7 +6001,7 @@ export const films = [
         slug: "farah-ito",
         primaryRole: "Writer",
         biography:
-          "Farah Ito is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Ito is a filmmaker whose work explores family and belonging.",
         country: "France",
       },
     ],
@@ -6057,7 +6057,7 @@ export const films = [
     published: "2020-08-26",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional experimental about work, identity and an unexpected city encounter.",
+      "An experimental film about work, identity and an unexpected city encounter.",
     runtimeSeconds: 377,
     rating: "12A",
     form: "Experimental",
@@ -6082,7 +6082,7 @@ export const films = [
         slug: "gia-bell",
         primaryRole: "Production Designer",
         biography:
-          "Gia Bell is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Bell is a filmmaker whose work explores architecture and public space.",
         country: "Nigeria",
       },
     ],
@@ -6138,7 +6138,7 @@ export const films = [
     published: "2007-09-27",
     editorialType: "Review",
     synopsis:
-      "A fictional documentary about technology, community and an unexpected forest encounter.",
+      "A documentary about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 460,
     rating: "PG",
     form: "Documentary",
@@ -6163,7 +6163,7 @@ export const films = [
         slug: "hugo-el-amin",
         primaryRole: "Director",
         biography:
-          "Hugo El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Hugo El-Amin is a filmmaker whose work explores memory and place.",
         country: "Canada",
       },
     ],
@@ -6203,7 +6203,7 @@ export const films = [
     published: "2014-10-01",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional drama about migration, grief and an unexpected home encounter.",
+      "A drama about migration, grief and an unexpected home encounter.",
     runtimeSeconds: 543,
     rating: "15",
     form: "Drama",
@@ -6228,7 +6228,7 @@ export const films = [
         slug: "imani-haddad",
         primaryRole: "Producer",
         biography:
-          "Imani Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Haddad is a filmmaker whose work explores performance and identity.",
         country: "Germany",
       },
     ],
@@ -6276,7 +6276,7 @@ export const films = [
     published: "2021-11-02",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional animation about climate, play and an unexpected factory encounter.",
+      "An animation about climate, play and an unexpected factory encounter.",
     runtimeSeconds: 626,
     rating: "U",
     form: "Animation",
@@ -6356,7 +6356,7 @@ export const films = [
     published: "2008-12-03",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional experimental about identity, power and an unexpected island encounter.",
+      "An experimental film about identity, power and an unexpected island encounter.",
     runtimeSeconds: 709,
     rating: "15",
     form: "Experimental",
@@ -6381,7 +6381,7 @@ export const films = [
         slug: "kira-doyle",
         primaryRole: "Editor",
         biography:
-          "Kira Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Brazil",
       },
     ],
@@ -6445,7 +6445,7 @@ export const films = [
     published: "2015-01-04",
     editorialType: "Interview",
     synopsis:
-      "A fictional documentary about community, home and an unexpected mountain encounter.",
+      "A documentary about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 792,
     rating: "PG",
     form: "Documentary",
@@ -6470,7 +6470,7 @@ export const films = [
         slug: "amina-haddad",
         primaryRole: "Sound Designer",
         biography:
-          "Amina Haddad is a fictional filmmaker whose work explores movement and music.",
+          "Amina Haddad is a filmmaker whose work explores movement and music.",
         country: "Spain",
       },
       {
@@ -6479,7 +6479,7 @@ export const films = [
         slug: "gia-ito",
         primaryRole: "Editor",
         biography:
-          "Gia Ito is a fictional filmmaker whose work explores ecology and landscape.",
+          "Gia Ito is a filmmaker whose work explores ecology and landscape.",
         country: "Germany",
       },
     ],
@@ -6519,7 +6519,7 @@ export const films = [
     published: "2022-02-05",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional drama about grief, time and an unexpected school encounter.",
+      "A drama about grief, time and an unexpected school encounter.",
     runtimeSeconds: 875,
     rating: "15",
     form: "Drama",
@@ -6544,7 +6544,7 @@ export const films = [
         slug: "arlo-adebayo",
         primaryRole: "Animator",
         biography:
-          "Arlo Adebayo is a fictional filmmaker whose work explores technology and labour.",
+          "Arlo Adebayo is a filmmaker whose work explores technology and labour.",
         country: "Ireland",
       },
     ],
@@ -6592,7 +6592,7 @@ export const films = [
     published: "2009-03-06",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional animation about play, memory and an unexpected river encounter.",
+      "An animation about play, memory and an unexpected river encounter.",
     runtimeSeconds: 958,
     rating: "U",
     form: "Animation",
@@ -6617,7 +6617,7 @@ export const films = [
         slug: "bea-doyle",
         primaryRole: "Writer",
         biography:
-          "Bea Doyle is a fictional filmmaker whose work explores family and belonging.",
+          "Bea Doyle is a filmmaker whose work explores family and belonging.",
         country: "Japan",
       },
     ],
@@ -6673,7 +6673,7 @@ export const films = [
     published: "2016-04-07",
     editorialType: "Review",
     synopsis:
-      "A fictional experimental about power, place and an unexpected suburb encounter.",
+      "An experimental film about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 1041,
     rating: "15",
     form: "Experimental",
@@ -6698,7 +6698,7 @@ export const films = [
         slug: "cass-ghosh",
         primaryRole: "Production Designer",
         biography:
-          "Cass Ghosh is a fictional filmmaker whose work explores architecture and public space.",
+          "Cass Ghosh is a filmmaker whose work explores architecture and public space.",
         country: "Netherlands",
       },
     ],
@@ -6762,7 +6762,7 @@ export const films = [
     published: "2023-05-08",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional documentary about home, family and an unexpected coast encounter.",
+      "A documentary about home, family and an unexpected coast encounter.",
     runtimeSeconds: 1124,
     rating: "PG",
     form: "Documentary",
@@ -6787,7 +6787,7 @@ export const films = [
         slug: "dev-jensen",
         primaryRole: "Director",
         biography:
-          "Dev Jensen is a fictional filmmaker whose work explores memory and place.",
+          "Dev Jensen is a filmmaker whose work explores memory and place.",
         country: "France",
       },
     ],
@@ -6827,7 +6827,7 @@ export const films = [
     published: "2010-06-09",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional drama about time, belonging and an unexpected city encounter.",
+      "A drama about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 1207,
     rating: "12A",
     form: "Drama",
@@ -6852,7 +6852,7 @@ export const films = [
         slug: "elian-chen",
         primaryRole: "Producer",
         biography:
-          "Elian Chen is a fictional filmmaker whose work explores performance and identity.",
+          "Elian Chen is a filmmaker whose work explores performance and identity.",
         country: "Nigeria",
       },
     ],
@@ -6892,7 +6892,7 @@ export const films = [
     published: "2017-07-10",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional animation about memory, work and an unexpected forest encounter.",
+      "An animation about memory, work and an unexpected forest encounter.",
     runtimeSeconds: null,
     rating: "U",
     form: "Animation",
@@ -6917,7 +6917,7 @@ export const films = [
         slug: "farah-flores",
         primaryRole: "Cinematographer",
         biography:
-          "Farah Flores is a fictional filmmaker whose work explores community histories.",
+          "Farah Flores is a filmmaker whose work explores community histories.",
         country: "Canada",
       },
     ],
@@ -6973,7 +6973,7 @@ export const films = [
     published: "2024-08-11",
     editorialType: "Interview",
     synopsis:
-      "A fictional experimental about place, technology and an unexpected home encounter.",
+      "An experimental film about place, technology and an unexpected home encounter.",
     runtimeSeconds: 1373,
     rating: "15",
     form: "Experimental",
@@ -6998,7 +6998,7 @@ export const films = [
         slug: "gia-ito",
         primaryRole: "Editor",
         biography:
-          "Gia Ito is a fictional filmmaker whose work explores ecology and landscape.",
+          "Gia Ito is a filmmaker whose work explores ecology and landscape.",
         country: "Germany",
       },
     ],
@@ -7062,7 +7062,7 @@ export const films = [
     published: "2011-09-12",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional documentary about family, migration and an unexpected factory encounter.",
+      "A documentary about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 376,
     rating: "12A",
     form: "Documentary",
@@ -7087,7 +7087,7 @@ export const films = [
         slug: "hugo-bell",
         primaryRole: "Sound Designer",
         biography:
-          "Hugo Bell is a fictional filmmaker whose work explores movement and music.",
+          "Hugo Bell is a filmmaker whose work explores movement and music.",
         country: "United Kingdom",
       },
     ],
@@ -7127,7 +7127,7 @@ export const films = [
     published: "2018-10-13",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional drama about belonging, climate and an unexpected island encounter.",
+      "A drama about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 459,
     rating: "15",
     form: "Drama",
@@ -7199,7 +7199,7 @@ export const films = [
     published: "2025-11-14",
     editorialType: "Review",
     synopsis:
-      "A fictional animation about work, identity and an unexpected mountain encounter.",
+      "An animation about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: 542,
     rating: "U",
     form: "Animation",
@@ -7224,7 +7224,7 @@ export const films = [
         slug: "jonah-haddad",
         primaryRole: "Writer",
         biography:
-          "Jonah Haddad is a fictional filmmaker whose work explores family and belonging.",
+          "Jonah Haddad is a filmmaker whose work explores family and belonging.",
         country: "Spain",
       },
     ],
@@ -7280,7 +7280,7 @@ export const films = [
     published: "2012-12-15",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional experimental about technology, community and an unexpected school encounter.",
+      "An experimental film about technology, community and an unexpected school encounter.",
     runtimeSeconds: 625,
     rating: "12A",
     form: "Experimental",
@@ -7305,7 +7305,7 @@ export const films = [
         slug: "kira-adebayo",
         primaryRole: "Production Designer",
         biography:
-          "Kira Adebayo is a fictional filmmaker whose work explores architecture and public space.",
+          "Kira Adebayo is a filmmaker whose work explores architecture and public space.",
         country: "Ireland",
       },
     ],
@@ -7369,7 +7369,7 @@ export const films = [
     published: "2019-01-16",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional documentary about migration, grief and an unexpected river encounter.",
+      "A documentary about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 708,
     rating: "12A",
     form: "Documentary",
@@ -7394,7 +7394,7 @@ export const films = [
         slug: "amina-el-amin",
         primaryRole: "Director",
         biography:
-          "Amina El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Amina El-Amin is a filmmaker whose work explores memory and place.",
         country: "Japan",
       },
     ],
@@ -7434,7 +7434,7 @@ export const films = [
     published: "2026-02-17",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional drama about climate, play and an unexpected suburb encounter.",
+      "A drama about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 791,
     rating: "12A",
     form: "Drama",
@@ -7459,7 +7459,7 @@ export const films = [
         slug: "arlo-haddad",
         primaryRole: "Producer",
         biography:
-          "Arlo Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Haddad is a filmmaker whose work explores performance and identity.",
         country: "Netherlands",
       },
     ],
@@ -7507,7 +7507,7 @@ export const films = [
     published: "2013-03-18",
     editorialType: "Interview",
     synopsis:
-      "A fictional animation about identity, power and an unexpected coast encounter.",
+      "An animation about identity, power and an unexpected coast encounter.",
     runtimeSeconds: 874,
     rating: "PG",
     form: "Animation",
@@ -7532,7 +7532,7 @@ export const films = [
         slug: "bea-adebayo",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Adebayo is a fictional filmmaker whose work explores community histories.",
+          "Bea Adebayo is a filmmaker whose work explores community histories.",
         country: "France",
       },
     ],
@@ -7588,7 +7588,7 @@ export const films = [
     published: "2020-04-19",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional experimental about community, home and an unexpected city encounter.",
+      "An experimental film about community, home and an unexpected city encounter.",
     runtimeSeconds: 957,
     rating: "12A",
     form: "Experimental",
@@ -7613,7 +7613,7 @@ export const films = [
         slug: "cass-doyle",
         primaryRole: "Editor",
         biography:
-          "Cass Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Nigeria",
       },
     ],
@@ -7669,7 +7669,7 @@ export const films = [
     published: "2007-05-20",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional documentary about grief, time and an unexpected forest encounter.",
+      "A documentary about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 1040,
     rating: "12A",
     form: "Documentary",
@@ -7694,7 +7694,7 @@ export const films = [
         slug: "dev-ghosh",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Ghosh is a fictional filmmaker whose work explores movement and music.",
+          "Dev Ghosh is a filmmaker whose work explores movement and music.",
         country: "Canada",
       },
     ],
@@ -7734,7 +7734,7 @@ export const films = [
     published: "2014-06-21",
     editorialType: "Review",
     synopsis:
-      "A fictional drama about play, memory and an unexpected home encounter.",
+      "A drama about play, memory and an unexpected home encounter.",
     runtimeSeconds: 1123,
     rating: "12A",
     form: "Drama",
@@ -7759,7 +7759,7 @@ export const films = [
         slug: "elian-jensen",
         primaryRole: "Animator",
         biography:
-          "Elian Jensen is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Jensen is a filmmaker whose work explores technology and labour.",
         country: "Germany",
       },
       {
@@ -7768,7 +7768,7 @@ export const films = [
         slug: "amina-adebayo",
         primaryRole: "Director",
         biography:
-          "Amina Adebayo is a fictional filmmaker whose work explores memory and place.",
+          "Amina Adebayo is a filmmaker whose work explores memory and place.",
         country: "United Kingdom",
       },
     ],
@@ -7816,7 +7816,7 @@ export const films = [
     published: "2021-07-22",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional animation about power, place and an unexpected factory encounter.",
+      "An animation about power, place and an unexpected factory encounter.",
     runtimeSeconds: 1206,
     rating: "PG",
     form: "Animation",
@@ -7841,7 +7841,7 @@ export const films = [
         slug: "farah-chen",
         primaryRole: "Writer",
         biography:
-          "Farah Chen is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Chen is a filmmaker whose work explores family and belonging.",
         country: "United Kingdom",
       },
     ],
@@ -7897,7 +7897,7 @@ export const films = [
     published: "2008-08-23",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional experimental about home, family and an unexpected island encounter.",
+      "An experimental film about home, family and an unexpected island encounter.",
     runtimeSeconds: null,
     rating: "12A",
     form: "Experimental",
@@ -7922,7 +7922,7 @@ export const films = [
         slug: "gia-flores",
         primaryRole: "Production Designer",
         biography:
-          "Gia Flores is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Flores is a filmmaker whose work explores architecture and public space.",
         country: "Brazil",
       },
     ],
@@ -7986,7 +7986,7 @@ export const films = [
     published: "2015-09-24",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional documentary about time, belonging and an unexpected mountain encounter.",
+      "A documentary about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 1372,
     rating: "PG",
     form: "Documentary",
@@ -8050,7 +8050,7 @@ export const films = [
     published: "2022-10-25",
     editorialType: "Interview",
     synopsis:
-      "A fictional drama about memory, work and an unexpected school encounter.",
+      "A drama about memory, work and an unexpected school encounter.",
     runtimeSeconds: 375,
     rating: "12A",
     form: "Drama",
@@ -8075,7 +8075,7 @@ export const films = [
         slug: "imani-bell",
         primaryRole: "Producer",
         biography:
-          "Imani Bell is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Bell is a filmmaker whose work explores performance and identity.",
         country: "Ireland",
       },
     ],
@@ -8123,7 +8123,7 @@ export const films = [
     published: "2009-11-26",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional animation about place, technology and an unexpected river encounter.",
+      "An animation about place, technology and an unexpected river encounter.",
     runtimeSeconds: 458,
     rating: "PG",
     form: "Animation",
@@ -8148,7 +8148,7 @@ export const films = [
         slug: "jonah-el-amin",
         primaryRole: "Cinematographer",
         biography:
-          "Jonah El-Amin is a fictional filmmaker whose work explores community histories.",
+          "Jonah El-Amin is a filmmaker whose work explores community histories.",
         country: "Japan",
       },
     ],
@@ -8204,7 +8204,7 @@ export const films = [
     published: "2016-12-27",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional experimental about family, migration and an unexpected suburb encounter.",
+      "An experimental film about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: 541,
     rating: "15",
     form: "Experimental",
@@ -8229,7 +8229,7 @@ export const films = [
         slug: "kira-haddad",
         primaryRole: "Editor",
         biography:
-          "Kira Haddad is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Haddad is a filmmaker whose work explores ecology and landscape.",
         country: "Netherlands",
       },
     ],
@@ -8293,7 +8293,7 @@ export const films = [
     published: "2023-01-01",
     editorialType: "Review",
     synopsis:
-      "A fictional documentary about belonging, climate and an unexpected coast encounter.",
+      "A documentary about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: 624,
     rating: "12A",
     form: "Documentary",
@@ -8318,7 +8318,7 @@ export const films = [
         slug: "amina-adebayo",
         primaryRole: "Director",
         biography:
-          "Amina Adebayo is a fictional filmmaker whose work explores memory and place.",
+          "Amina Adebayo is a filmmaker whose work explores memory and place.",
         country: "United Kingdom",
       },
     ],
@@ -8358,7 +8358,7 @@ export const films = [
     published: "2010-02-02",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional drama about work, identity and an unexpected city encounter.",
+      "A drama about work, identity and an unexpected city encounter.",
     runtimeSeconds: 707,
     rating: "12A",
     form: "Drama",
@@ -8383,7 +8383,7 @@ export const films = [
         slug: "arlo-doyle",
         primaryRole: "Producer",
         biography:
-          "Arlo Doyle is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Doyle is a filmmaker whose work explores performance and identity.",
         country: "Brazil",
       },
     ],
@@ -8423,7 +8423,7 @@ export const films = [
     published: "2017-03-03",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional animation about technology, community and an unexpected forest encounter.",
+      "An animation about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 790,
     rating: "U",
     form: "Animation",
@@ -8448,7 +8448,7 @@ export const films = [
         slug: "bea-ghosh",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Ghosh is a fictional filmmaker whose work explores community histories.",
+          "Bea Ghosh is a filmmaker whose work explores community histories.",
         country: "Spain",
       },
     ],
@@ -8504,7 +8504,7 @@ export const films = [
     published: "2024-04-04",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional experimental about migration, grief and an unexpected home encounter.",
+      "An experimental film about migration, grief and an unexpected home encounter.",
     runtimeSeconds: 873,
     rating: "15",
     form: "Experimental",
@@ -8529,7 +8529,7 @@ export const films = [
         slug: "cass-jensen",
         primaryRole: "Editor",
         biography:
-          "Cass Jensen is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Jensen is a filmmaker whose work explores ecology and landscape.",
         country: "Ireland",
       },
     ],
@@ -8593,7 +8593,7 @@ export const films = [
     published: "2011-05-05",
     editorialType: "Interview",
     synopsis:
-      "A fictional documentary about climate, play and an unexpected factory encounter.",
+      "A documentary about climate, play and an unexpected factory encounter.",
     runtimeSeconds: 956,
     rating: "PG",
     form: "Documentary",
@@ -8618,7 +8618,7 @@ export const films = [
         slug: "dev-chen",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Chen is a fictional filmmaker whose work explores movement and music.",
+          "Dev Chen is a filmmaker whose work explores movement and music.",
         country: "Japan",
       },
     ],
@@ -8658,7 +8658,7 @@ export const films = [
     published: "2018-06-06",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional drama about identity, power and an unexpected island encounter.",
+      "A drama about identity, power and an unexpected island encounter.",
     runtimeSeconds: 1039,
     rating: "15",
     form: "Drama",
@@ -8683,7 +8683,7 @@ export const films = [
         slug: "elian-flores",
         primaryRole: "Animator",
         biography:
-          "Elian Flores is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Flores is a filmmaker whose work explores technology and labour.",
         country: "Netherlands",
       },
     ],
@@ -8731,7 +8731,7 @@ export const films = [
     published: "2025-07-07",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional animation about community, home and an unexpected mountain encounter.",
+      "An animation about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 1122,
     rating: "U",
     form: "Animation",
@@ -8756,7 +8756,7 @@ export const films = [
         slug: "farah-ito",
         primaryRole: "Writer",
         biography:
-          "Farah Ito is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Ito is a filmmaker whose work explores family and belonging.",
         country: "France",
       },
     ],
@@ -8812,7 +8812,7 @@ export const films = [
     published: "2012-08-08",
     editorialType: "Review",
     synopsis:
-      "A fictional experimental about grief, time and an unexpected school encounter.",
+      "An experimental film about grief, time and an unexpected school encounter.",
     runtimeSeconds: 1205,
     rating: "15",
     form: "Experimental",
@@ -8837,7 +8837,7 @@ export const films = [
         slug: "gia-bell",
         primaryRole: "Production Designer",
         biography:
-          "Gia Bell is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Bell is a filmmaker whose work explores architecture and public space.",
         country: "Nigeria",
       },
     ],
@@ -8901,7 +8901,7 @@ export const films = [
     published: "2019-09-09",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional documentary about play, memory and an unexpected river encounter.",
+      "A documentary about play, memory and an unexpected river encounter.",
     runtimeSeconds: null,
     rating: "PG",
     form: "Documentary",
@@ -8926,7 +8926,7 @@ export const films = [
         slug: "hugo-el-amin",
         primaryRole: "Director",
         biography:
-          "Hugo El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Hugo El-Amin is a filmmaker whose work explores memory and place.",
         country: "Canada",
       },
     ],
@@ -8966,7 +8966,7 @@ export const films = [
     published: "2026-10-10",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional drama about power, place and an unexpected suburb encounter.",
+      "A drama about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 1371,
     rating: "15",
     form: "Drama",
@@ -8991,7 +8991,7 @@ export const films = [
         slug: "imani-haddad",
         primaryRole: "Producer",
         biography:
-          "Imani Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Haddad is a filmmaker whose work explores performance and identity.",
         country: "Germany",
       },
     ],
@@ -9039,7 +9039,7 @@ export const films = [
     published: "2013-11-11",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional animation about home, family and an unexpected coast encounter.",
+      "An animation about home, family and an unexpected coast encounter.",
     runtimeSeconds: 374,
     rating: "U",
     form: "Animation",
@@ -9072,7 +9072,7 @@ export const films = [
         slug: "elian-chen",
         primaryRole: "Producer",
         biography:
-          "Elian Chen is a fictional filmmaker whose work explores performance and identity.",
+          "Elian Chen is a filmmaker whose work explores performance and identity.",
         country: "Nigeria",
       },
     ],
@@ -9128,7 +9128,7 @@ export const films = [
     published: "2020-12-12",
     editorialType: "Interview",
     synopsis:
-      "A fictional experimental about time, belonging and an unexpected city encounter.",
+      "An experimental film about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 457,
     rating: "12A",
     form: "Experimental",
@@ -9153,7 +9153,7 @@ export const films = [
         slug: "kira-doyle",
         primaryRole: "Editor",
         biography:
-          "Kira Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Brazil",
       },
     ],
@@ -9209,7 +9209,7 @@ export const films = [
     published: "2007-01-13",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional documentary about memory, work and an unexpected forest encounter.",
+      "A documentary about memory, work and an unexpected forest encounter.",
     runtimeSeconds: 540,
     rating: "PG",
     form: "Documentary",
@@ -9234,7 +9234,7 @@ export const films = [
         slug: "amina-haddad",
         primaryRole: "Sound Designer",
         biography:
-          "Amina Haddad is a fictional filmmaker whose work explores movement and music.",
+          "Amina Haddad is a filmmaker whose work explores movement and music.",
         country: "Spain",
       },
     ],
@@ -9274,7 +9274,7 @@ export const films = [
     published: "2014-02-14",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional drama about place, technology and an unexpected home encounter.",
+      "A drama about place, technology and an unexpected home encounter.",
     runtimeSeconds: 623,
     rating: "15",
     form: "Drama",
@@ -9299,7 +9299,7 @@ export const films = [
         slug: "arlo-adebayo",
         primaryRole: "Animator",
         biography:
-          "Arlo Adebayo is a fictional filmmaker whose work explores technology and labour.",
+          "Arlo Adebayo is a filmmaker whose work explores technology and labour.",
         country: "Ireland",
       },
     ],
@@ -9347,7 +9347,7 @@ export const films = [
     published: "2021-03-15",
     editorialType: "Review",
     synopsis:
-      "A fictional animation about family, migration and an unexpected factory encounter.",
+      "An animation about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 706,
     rating: "PG",
     form: "Animation",
@@ -9372,7 +9372,7 @@ export const films = [
         slug: "bea-doyle",
         primaryRole: "Writer",
         biography:
-          "Bea Doyle is a fictional filmmaker whose work explores family and belonging.",
+          "Bea Doyle is a filmmaker whose work explores family and belonging.",
         country: "Japan",
       },
     ],
@@ -9428,7 +9428,7 @@ export const films = [
     published: "2008-04-16",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional experimental about belonging, climate and an unexpected island encounter.",
+      "An experimental film about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 789,
     rating: "15",
     form: "Experimental",
@@ -9453,7 +9453,7 @@ export const films = [
         slug: "cass-ghosh",
         primaryRole: "Production Designer",
         biography:
-          "Cass Ghosh is a fictional filmmaker whose work explores architecture and public space.",
+          "Cass Ghosh is a filmmaker whose work explores architecture and public space.",
         country: "Netherlands",
       },
     ],
@@ -9517,7 +9517,7 @@ export const films = [
     published: "2015-05-17",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional documentary about work, identity and an unexpected mountain encounter.",
+      "A documentary about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: 872,
     rating: "PG",
     form: "Documentary",
@@ -9542,7 +9542,7 @@ export const films = [
         slug: "dev-jensen",
         primaryRole: "Director",
         biography:
-          "Dev Jensen is a fictional filmmaker whose work explores memory and place.",
+          "Dev Jensen is a filmmaker whose work explores memory and place.",
         country: "France",
       },
     ],
@@ -9582,7 +9582,7 @@ export const films = [
     published: "2022-06-18",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional drama about technology, community and an unexpected school encounter.",
+      "A drama about technology, community and an unexpected school encounter.",
     runtimeSeconds: 955,
     rating: "12A",
     form: "Drama",
@@ -9607,7 +9607,7 @@ export const films = [
         slug: "elian-chen",
         primaryRole: "Producer",
         biography:
-          "Elian Chen is a fictional filmmaker whose work explores performance and identity.",
+          "Elian Chen is a filmmaker whose work explores performance and identity.",
         country: "Nigeria",
       },
     ],
@@ -9655,7 +9655,7 @@ export const films = [
     published: "2009-07-19",
     editorialType: "Interview",
     synopsis:
-      "A fictional animation about migration, grief and an unexpected river encounter.",
+      "An animation about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 1038,
     rating: "PG",
     form: "Animation",
@@ -9680,7 +9680,7 @@ export const films = [
         slug: "farah-flores",
         primaryRole: "Cinematographer",
         biography:
-          "Farah Flores is a fictional filmmaker whose work explores community histories.",
+          "Farah Flores is a filmmaker whose work explores community histories.",
         country: "Canada",
       },
     ],
@@ -9736,7 +9736,7 @@ export const films = [
     published: "2016-08-20",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional experimental about climate, play and an unexpected suburb encounter.",
+      "An experimental film about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 1121,
     rating: "12A",
     form: "Experimental",
@@ -9761,7 +9761,7 @@ export const films = [
         slug: "gia-ito",
         primaryRole: "Editor",
         biography:
-          "Gia Ito is a fictional filmmaker whose work explores ecology and landscape.",
+          "Gia Ito is a filmmaker whose work explores ecology and landscape.",
         country: "Germany",
       },
     ],
@@ -9825,7 +9825,7 @@ export const films = [
     published: "2023-09-21",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional documentary about identity, power and an unexpected coast encounter.",
+      "A documentary about identity, power and an unexpected coast encounter.",
     runtimeSeconds: 1204,
     rating: "12A",
     form: "Documentary",
@@ -9850,7 +9850,7 @@ export const films = [
         slug: "hugo-bell",
         primaryRole: "Sound Designer",
         biography:
-          "Hugo Bell is a fictional filmmaker whose work explores movement and music.",
+          "Hugo Bell is a filmmaker whose work explores movement and music.",
         country: "United Kingdom",
       },
     ],
@@ -9890,7 +9890,7 @@ export const films = [
     published: "2010-10-22",
     editorialType: "Review",
     synopsis:
-      "A fictional drama about community, home and an unexpected city encounter.",
+      "A drama about community, home and an unexpected city encounter.",
     runtimeSeconds: null,
     rating: "12A",
     form: "Drama",
@@ -9954,7 +9954,7 @@ export const films = [
     published: "2017-11-23",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional animation about grief, time and an unexpected forest encounter.",
+      "An animation about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 1370,
     rating: "PG",
     form: "Animation",
@@ -9979,7 +9979,7 @@ export const films = [
         slug: "jonah-haddad",
         primaryRole: "Writer",
         biography:
-          "Jonah Haddad is a fictional filmmaker whose work explores family and belonging.",
+          "Jonah Haddad is a filmmaker whose work explores family and belonging.",
         country: "Spain",
       },
     ],
@@ -10035,7 +10035,7 @@ export const films = [
     published: "2024-12-24",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional experimental about play, memory and an unexpected home encounter.",
+      "An experimental film about play, memory and an unexpected home encounter.",
     runtimeSeconds: 373,
     rating: "12A",
     form: "Experimental",
@@ -10060,7 +10060,7 @@ export const films = [
         slug: "kira-adebayo",
         primaryRole: "Production Designer",
         biography:
-          "Kira Adebayo is a fictional filmmaker whose work explores architecture and public space.",
+          "Kira Adebayo is a filmmaker whose work explores architecture and public space.",
         country: "Ireland",
       },
     ],
@@ -10124,7 +10124,7 @@ export const films = [
     published: "2011-01-25",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional documentary about power, place and an unexpected factory encounter.",
+      "A documentary about power, place and an unexpected factory encounter.",
     runtimeSeconds: 456,
     rating: "12A",
     form: "Documentary",
@@ -10149,7 +10149,7 @@ export const films = [
         slug: "amina-el-amin",
         primaryRole: "Director",
         biography:
-          "Amina El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Amina El-Amin is a filmmaker whose work explores memory and place.",
         country: "Japan",
       },
     ],
@@ -10189,7 +10189,7 @@ export const films = [
     published: "2018-02-26",
     editorialType: "Interview",
     synopsis:
-      "A fictional drama about home, family and an unexpected island encounter.",
+      "A drama about home, family and an unexpected island encounter.",
     runtimeSeconds: 539,
     rating: "12A",
     form: "Drama",
@@ -10214,7 +10214,7 @@ export const films = [
         slug: "arlo-haddad",
         primaryRole: "Producer",
         biography:
-          "Arlo Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Haddad is a filmmaker whose work explores performance and identity.",
         country: "Netherlands",
       },
     ],
@@ -10262,7 +10262,7 @@ export const films = [
     published: "2025-03-27",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional animation about time, belonging and an unexpected mountain encounter.",
+      "An animation about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 622,
     rating: "U",
     form: "Animation",
@@ -10287,7 +10287,7 @@ export const films = [
         slug: "bea-adebayo",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Adebayo is a fictional filmmaker whose work explores community histories.",
+          "Bea Adebayo is a filmmaker whose work explores community histories.",
         country: "France",
       },
     ],
@@ -10343,7 +10343,7 @@ export const films = [
     published: "2012-04-01",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional experimental about memory, work and an unexpected school encounter.",
+      "An experimental film about memory, work and an unexpected school encounter.",
     runtimeSeconds: 705,
     rating: "12A",
     form: "Experimental",
@@ -10368,7 +10368,7 @@ export const films = [
         slug: "cass-doyle",
         primaryRole: "Editor",
         biography:
-          "Cass Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Nigeria",
       },
       {
@@ -10377,7 +10377,7 @@ export const films = [
         slug: "jonah-el-amin",
         primaryRole: "Cinematographer",
         biography:
-          "Jonah El-Amin is a fictional filmmaker whose work explores community histories.",
+          "Jonah El-Amin is a filmmaker whose work explores community histories.",
         country: "Japan",
       },
     ],
@@ -10441,7 +10441,7 @@ export const films = [
     published: "2019-05-02",
     editorialType: "Review",
     synopsis:
-      "A fictional documentary about place, technology and an unexpected river encounter.",
+      "A documentary about place, technology and an unexpected river encounter.",
     runtimeSeconds: 788,
     rating: "12A",
     form: "Documentary",
@@ -10466,7 +10466,7 @@ export const films = [
         slug: "dev-ghosh",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Ghosh is a fictional filmmaker whose work explores movement and music.",
+          "Dev Ghosh is a filmmaker whose work explores movement and music.",
         country: "Canada",
       },
     ],
@@ -10506,7 +10506,7 @@ export const films = [
     published: "2026-06-03",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional drama about family, migration and an unexpected suburb encounter.",
+      "A drama about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: 871,
     rating: "15",
     form: "Drama",
@@ -10531,7 +10531,7 @@ export const films = [
         slug: "elian-jensen",
         primaryRole: "Animator",
         biography:
-          "Elian Jensen is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Jensen is a filmmaker whose work explores technology and labour.",
         country: "Germany",
       },
     ],
@@ -10579,7 +10579,7 @@ export const films = [
     published: "2013-07-04",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional animation about belonging, climate and an unexpected coast encounter.",
+      "An animation about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: 954,
     rating: "PG",
     form: "Animation",
@@ -10604,7 +10604,7 @@ export const films = [
         slug: "farah-chen",
         primaryRole: "Writer",
         biography:
-          "Farah Chen is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Chen is a filmmaker whose work explores family and belonging.",
         country: "United Kingdom",
       },
     ],
@@ -10660,7 +10660,7 @@ export const films = [
     published: "2020-08-05",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional experimental about work, identity and an unexpected city encounter.",
+      "An experimental film about work, identity and an unexpected city encounter.",
     runtimeSeconds: 1037,
     rating: "12A",
     form: "Experimental",
@@ -10685,7 +10685,7 @@ export const films = [
         slug: "gia-flores",
         primaryRole: "Production Designer",
         biography:
-          "Gia Flores is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Flores is a filmmaker whose work explores architecture and public space.",
         country: "Brazil",
       },
     ],
@@ -10741,7 +10741,7 @@ export const films = [
     published: "2007-09-06",
     editorialType: "Interview",
     synopsis:
-      "A fictional documentary about technology, community and an unexpected forest encounter.",
+      "A documentary about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 1120,
     rating: "PG",
     form: "Documentary",
@@ -10805,7 +10805,7 @@ export const films = [
     published: "2014-10-07",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional drama about migration, grief and an unexpected home encounter.",
+      "A drama about migration, grief and an unexpected home encounter.",
     runtimeSeconds: 1203,
     rating: "15",
     form: "Drama",
@@ -10830,7 +10830,7 @@ export const films = [
         slug: "imani-bell",
         primaryRole: "Producer",
         biography:
-          "Imani Bell is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Bell is a filmmaker whose work explores performance and identity.",
         country: "Ireland",
       },
     ],
@@ -10878,7 +10878,7 @@ export const films = [
     published: "2021-11-08",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional animation about climate, play and an unexpected factory encounter.",
+      "An animation about climate, play and an unexpected factory encounter.",
     runtimeSeconds: null,
     rating: "U",
     form: "Animation",
@@ -10903,7 +10903,7 @@ export const films = [
         slug: "jonah-el-amin",
         primaryRole: "Cinematographer",
         biography:
-          "Jonah El-Amin is a fictional filmmaker whose work explores community histories.",
+          "Jonah El-Amin is a filmmaker whose work explores community histories.",
         country: "Japan",
       },
     ],
@@ -10959,7 +10959,7 @@ export const films = [
     published: "2008-12-09",
     editorialType: "Review",
     synopsis:
-      "A fictional experimental about identity, power and an unexpected island encounter.",
+      "An experimental film about identity, power and an unexpected island encounter.",
     runtimeSeconds: 1369,
     rating: "15",
     form: "Experimental",
@@ -10984,7 +10984,7 @@ export const films = [
         slug: "kira-haddad",
         primaryRole: "Editor",
         biography:
-          "Kira Haddad is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Haddad is a filmmaker whose work explores ecology and landscape.",
         country: "Netherlands",
       },
     ],
@@ -11048,7 +11048,7 @@ export const films = [
     published: "2015-01-10",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional documentary about community, home and an unexpected mountain encounter.",
+      "A documentary about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 372,
     rating: "PG",
     form: "Documentary",
@@ -11073,7 +11073,7 @@ export const films = [
         slug: "amina-adebayo",
         primaryRole: "Director",
         biography:
-          "Amina Adebayo is a fictional filmmaker whose work explores memory and place.",
+          "Amina Adebayo is a filmmaker whose work explores memory and place.",
         country: "United Kingdom",
       },
     ],
@@ -11113,7 +11113,7 @@ export const films = [
     published: "2022-02-11",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional drama about grief, time and an unexpected school encounter.",
+      "A drama about grief, time and an unexpected school encounter.",
     runtimeSeconds: 455,
     rating: "15",
     form: "Drama",
@@ -11138,7 +11138,7 @@ export const films = [
         slug: "arlo-doyle",
         primaryRole: "Producer",
         biography:
-          "Arlo Doyle is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Doyle is a filmmaker whose work explores performance and identity.",
         country: "Brazil",
       },
     ],
@@ -11186,7 +11186,7 @@ export const films = [
     published: "2009-03-12",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional animation about play, memory and an unexpected river encounter.",
+      "An animation about play, memory and an unexpected river encounter.",
     runtimeSeconds: 538,
     rating: "U",
     form: "Animation",
@@ -11211,7 +11211,7 @@ export const films = [
         slug: "bea-ghosh",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Ghosh is a fictional filmmaker whose work explores community histories.",
+          "Bea Ghosh is a filmmaker whose work explores community histories.",
         country: "Spain",
       },
     ],
@@ -11267,7 +11267,7 @@ export const films = [
     published: "2016-04-13",
     editorialType: "Interview",
     synopsis:
-      "A fictional experimental about power, place and an unexpected suburb encounter.",
+      "An experimental film about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 621,
     rating: "15",
     form: "Experimental",
@@ -11292,7 +11292,7 @@ export const films = [
         slug: "cass-jensen",
         primaryRole: "Editor",
         biography:
-          "Cass Jensen is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Jensen is a filmmaker whose work explores ecology and landscape.",
         country: "Ireland",
       },
     ],
@@ -11356,7 +11356,7 @@ export const films = [
     published: "2023-05-14",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional documentary about home, family and an unexpected coast encounter.",
+      "A documentary about home, family and an unexpected coast encounter.",
     runtimeSeconds: 704,
     rating: "PG",
     form: "Documentary",
@@ -11381,7 +11381,7 @@ export const films = [
         slug: "dev-chen",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Chen is a fictional filmmaker whose work explores movement and music.",
+          "Dev Chen is a filmmaker whose work explores movement and music.",
         country: "Japan",
       },
     ],
@@ -11421,7 +11421,7 @@ export const films = [
     published: "2010-06-15",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional drama about time, belonging and an unexpected city encounter.",
+      "A drama about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 787,
     rating: "12A",
     form: "Drama",
@@ -11446,7 +11446,7 @@ export const films = [
         slug: "elian-flores",
         primaryRole: "Animator",
         biography:
-          "Elian Flores is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Flores is a filmmaker whose work explores technology and labour.",
         country: "Netherlands",
       },
     ],
@@ -11486,7 +11486,7 @@ export const films = [
     published: "2017-07-16",
     editorialType: "Review",
     synopsis:
-      "A fictional animation about memory, work and an unexpected forest encounter.",
+      "An animation about memory, work and an unexpected forest encounter.",
     runtimeSeconds: 870,
     rating: "U",
     form: "Animation",
@@ -11511,7 +11511,7 @@ export const films = [
         slug: "farah-ito",
         primaryRole: "Writer",
         biography:
-          "Farah Ito is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Ito is a filmmaker whose work explores family and belonging.",
         country: "France",
       },
     ],
@@ -11567,7 +11567,7 @@ export const films = [
     published: "2024-08-17",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional experimental about place, technology and an unexpected home encounter.",
+      "An experimental film about place, technology and an unexpected home encounter.",
     runtimeSeconds: 953,
     rating: "15",
     form: "Experimental",
@@ -11592,7 +11592,7 @@ export const films = [
         slug: "gia-bell",
         primaryRole: "Production Designer",
         biography:
-          "Gia Bell is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Bell is a filmmaker whose work explores architecture and public space.",
         country: "Nigeria",
       },
     ],
@@ -11656,7 +11656,7 @@ export const films = [
     published: "2011-09-18",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional documentary about family, migration and an unexpected factory encounter.",
+      "A documentary about family, migration and an unexpected factory encounter.",
     runtimeSeconds: 1036,
     rating: "12A",
     form: "Documentary",
@@ -11681,7 +11681,7 @@ export const films = [
         slug: "hugo-el-amin",
         primaryRole: "Director",
         biography:
-          "Hugo El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Hugo El-Amin is a filmmaker whose work explores memory and place.",
         country: "Canada",
       },
       {
@@ -11690,7 +11690,7 @@ export const films = [
         slug: "cass-ghosh",
         primaryRole: "Production Designer",
         biography:
-          "Cass Ghosh is a fictional filmmaker whose work explores architecture and public space.",
+          "Cass Ghosh is a filmmaker whose work explores architecture and public space.",
         country: "Netherlands",
       },
     ],
@@ -11730,7 +11730,7 @@ export const films = [
     published: "2018-10-19",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional drama about belonging, climate and an unexpected island encounter.",
+      "A drama about belonging, climate and an unexpected island encounter.",
     runtimeSeconds: 1119,
     rating: "15",
     form: "Drama",
@@ -11755,7 +11755,7 @@ export const films = [
         slug: "imani-haddad",
         primaryRole: "Producer",
         biography:
-          "Imani Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Haddad is a filmmaker whose work explores performance and identity.",
         country: "Germany",
       },
     ],
@@ -11803,7 +11803,7 @@ export const films = [
     published: "2025-11-20",
     editorialType: "Interview",
     synopsis:
-      "A fictional animation about work, identity and an unexpected mountain encounter.",
+      "An animation about work, identity and an unexpected mountain encounter.",
     runtimeSeconds: 1202,
     rating: "U",
     form: "Animation",
@@ -11883,7 +11883,7 @@ export const films = [
     published: "2012-12-21",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional experimental about technology, community and an unexpected school encounter.",
+      "An experimental film about technology, community and an unexpected school encounter.",
     runtimeSeconds: null,
     rating: "12A",
     form: "Experimental",
@@ -11908,7 +11908,7 @@ export const films = [
         slug: "kira-doyle",
         primaryRole: "Editor",
         biography:
-          "Kira Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Brazil",
       },
     ],
@@ -11972,7 +11972,7 @@ export const films = [
     published: "2019-01-22",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional documentary about migration, grief and an unexpected river encounter.",
+      "A documentary about migration, grief and an unexpected river encounter.",
     runtimeSeconds: 1368,
     rating: "12A",
     form: "Documentary",
@@ -11997,7 +11997,7 @@ export const films = [
         slug: "amina-haddad",
         primaryRole: "Sound Designer",
         biography:
-          "Amina Haddad is a fictional filmmaker whose work explores movement and music.",
+          "Amina Haddad is a filmmaker whose work explores movement and music.",
         country: "Spain",
       },
     ],
@@ -12037,7 +12037,7 @@ export const films = [
     published: "2026-02-23",
     editorialType: "Review",
     synopsis:
-      "A fictional drama about climate, play and an unexpected suburb encounter.",
+      "A drama about climate, play and an unexpected suburb encounter.",
     runtimeSeconds: 371,
     rating: "12A",
     form: "Drama",
@@ -12062,7 +12062,7 @@ export const films = [
         slug: "arlo-adebayo",
         primaryRole: "Animator",
         biography:
-          "Arlo Adebayo is a fictional filmmaker whose work explores technology and labour.",
+          "Arlo Adebayo is a filmmaker whose work explores technology and labour.",
         country: "Ireland",
       },
     ],
@@ -12110,7 +12110,7 @@ export const films = [
     published: "2013-03-24",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional animation about identity, power and an unexpected coast encounter.",
+      "An animation about identity, power and an unexpected coast encounter.",
     runtimeSeconds: 454,
     rating: "PG",
     form: "Animation",
@@ -12135,7 +12135,7 @@ export const films = [
         slug: "bea-doyle",
         primaryRole: "Writer",
         biography:
-          "Bea Doyle is a fictional filmmaker whose work explores family and belonging.",
+          "Bea Doyle is a filmmaker whose work explores family and belonging.",
         country: "Japan",
       },
     ],
@@ -12191,7 +12191,7 @@ export const films = [
     published: "2020-04-25",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional experimental about community, home and an unexpected city encounter.",
+      "An experimental film about community, home and an unexpected city encounter.",
     runtimeSeconds: 537,
     rating: "12A",
     form: "Experimental",
@@ -12216,7 +12216,7 @@ export const films = [
         slug: "cass-ghosh",
         primaryRole: "Production Designer",
         biography:
-          "Cass Ghosh is a fictional filmmaker whose work explores architecture and public space.",
+          "Cass Ghosh is a filmmaker whose work explores architecture and public space.",
         country: "Netherlands",
       },
     ],
@@ -12272,7 +12272,7 @@ export const films = [
     published: "2007-05-26",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional documentary about grief, time and an unexpected forest encounter.",
+      "A documentary about grief, time and an unexpected forest encounter.",
     runtimeSeconds: 620,
     rating: "12A",
     form: "Documentary",
@@ -12297,7 +12297,7 @@ export const films = [
         slug: "dev-jensen",
         primaryRole: "Director",
         biography:
-          "Dev Jensen is a fictional filmmaker whose work explores memory and place.",
+          "Dev Jensen is a filmmaker whose work explores memory and place.",
         country: "France",
       },
     ],
@@ -12337,7 +12337,7 @@ export const films = [
     published: "2014-06-27",
     editorialType: "Interview",
     synopsis:
-      "A fictional drama about play, memory and an unexpected home encounter.",
+      "A drama about play, memory and an unexpected home encounter.",
     runtimeSeconds: 703,
     rating: "12A",
     form: "Drama",
@@ -12362,7 +12362,7 @@ export const films = [
         slug: "elian-chen",
         primaryRole: "Producer",
         biography:
-          "Elian Chen is a fictional filmmaker whose work explores performance and identity.",
+          "Elian Chen is a filmmaker whose work explores performance and identity.",
         country: "Nigeria",
       },
     ],
@@ -12410,7 +12410,7 @@ export const films = [
     published: "2021-07-01",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional animation about power, place and an unexpected factory encounter.",
+      "An animation about power, place and an unexpected factory encounter.",
     runtimeSeconds: 786,
     rating: "PG",
     form: "Animation",
@@ -12435,7 +12435,7 @@ export const films = [
         slug: "farah-flores",
         primaryRole: "Cinematographer",
         biography:
-          "Farah Flores is a fictional filmmaker whose work explores community histories.",
+          "Farah Flores is a filmmaker whose work explores community histories.",
         country: "Canada",
       },
     ],
@@ -12491,7 +12491,7 @@ export const films = [
     published: "2008-08-02",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional experimental about home, family and an unexpected island encounter.",
+      "An experimental film about home, family and an unexpected island encounter.",
     runtimeSeconds: 869,
     rating: "12A",
     form: "Experimental",
@@ -12516,7 +12516,7 @@ export const films = [
         slug: "gia-ito",
         primaryRole: "Editor",
         biography:
-          "Gia Ito is a fictional filmmaker whose work explores ecology and landscape.",
+          "Gia Ito is a filmmaker whose work explores ecology and landscape.",
         country: "Germany",
       },
     ],
@@ -12580,7 +12580,7 @@ export const films = [
     published: "2015-09-03",
     editorialType: "Review",
     synopsis:
-      "A fictional documentary about time, belonging and an unexpected mountain encounter.",
+      "A documentary about time, belonging and an unexpected mountain encounter.",
     runtimeSeconds: 952,
     rating: "PG",
     form: "Documentary",
@@ -12605,7 +12605,7 @@ export const films = [
         slug: "hugo-bell",
         primaryRole: "Sound Designer",
         biography:
-          "Hugo Bell is a fictional filmmaker whose work explores movement and music.",
+          "Hugo Bell is a filmmaker whose work explores movement and music.",
         country: "United Kingdom",
       },
     ],
@@ -12645,7 +12645,7 @@ export const films = [
     published: "2022-10-04",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional drama about memory, work and an unexpected school encounter.",
+      "A drama about memory, work and an unexpected school encounter.",
     runtimeSeconds: 1035,
     rating: "12A",
     form: "Drama",
@@ -12717,7 +12717,7 @@ export const films = [
     published: "2009-11-05",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional animation about place, technology and an unexpected river encounter.",
+      "An animation about place, technology and an unexpected river encounter.",
     runtimeSeconds: 1118,
     rating: "PG",
     form: "Animation",
@@ -12742,7 +12742,7 @@ export const films = [
         slug: "jonah-haddad",
         primaryRole: "Writer",
         biography:
-          "Jonah Haddad is a fictional filmmaker whose work explores family and belonging.",
+          "Jonah Haddad is a filmmaker whose work explores family and belonging.",
         country: "Spain",
       },
     ],
@@ -12798,7 +12798,7 @@ export const films = [
     published: "2016-12-06",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional experimental about family, migration and an unexpected suburb encounter.",
+      "An experimental film about family, migration and an unexpected suburb encounter.",
     runtimeSeconds: 1201,
     rating: "15",
     form: "Experimental",
@@ -12823,7 +12823,7 @@ export const films = [
         slug: "kira-adebayo",
         primaryRole: "Production Designer",
         biography:
-          "Kira Adebayo is a fictional filmmaker whose work explores architecture and public space.",
+          "Kira Adebayo is a filmmaker whose work explores architecture and public space.",
         country: "Ireland",
       },
     ],
@@ -12887,7 +12887,7 @@ export const films = [
     published: "2023-01-07",
     editorialType: "Interview",
     synopsis:
-      "A fictional documentary about belonging, climate and an unexpected coast encounter.",
+      "A documentary about belonging, climate and an unexpected coast encounter.",
     runtimeSeconds: null,
     rating: "12A",
     form: "Documentary",
@@ -12912,7 +12912,7 @@ export const films = [
         slug: "amina-el-amin",
         primaryRole: "Director",
         biography:
-          "Amina El-Amin is a fictional filmmaker whose work explores memory and place.",
+          "Amina El-Amin is a filmmaker whose work explores memory and place.",
         country: "Japan",
       },
     ],
@@ -12952,7 +12952,7 @@ export const films = [
     published: "2010-02-08",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional drama about work, identity and an unexpected city encounter.",
+      "A drama about work, identity and an unexpected city encounter.",
     runtimeSeconds: 1367,
     rating: "12A",
     form: "Drama",
@@ -12977,7 +12977,7 @@ export const films = [
         slug: "arlo-haddad",
         primaryRole: "Producer",
         biography:
-          "Arlo Haddad is a fictional filmmaker whose work explores performance and identity.",
+          "Arlo Haddad is a filmmaker whose work explores performance and identity.",
         country: "Netherlands",
       },
       {
@@ -13025,7 +13025,7 @@ export const films = [
     published: "2017-03-09",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional animation about technology, community and an unexpected forest encounter.",
+      "An animation about technology, community and an unexpected forest encounter.",
     runtimeSeconds: 370,
     rating: "U",
     form: "Animation",
@@ -13050,7 +13050,7 @@ export const films = [
         slug: "bea-adebayo",
         primaryRole: "Cinematographer",
         biography:
-          "Bea Adebayo is a fictional filmmaker whose work explores community histories.",
+          "Bea Adebayo is a filmmaker whose work explores community histories.",
         country: "France",
       },
     ],
@@ -13106,7 +13106,7 @@ export const films = [
     published: "2024-04-10",
     editorialType: "Review",
     synopsis:
-      "A fictional experimental about migration, grief and an unexpected home encounter.",
+      "An experimental film about migration, grief and an unexpected home encounter.",
     runtimeSeconds: 453,
     rating: "15",
     form: "Experimental",
@@ -13131,7 +13131,7 @@ export const films = [
         slug: "cass-doyle",
         primaryRole: "Editor",
         biography:
-          "Cass Doyle is a fictional filmmaker whose work explores ecology and landscape.",
+          "Cass Doyle is a filmmaker whose work explores ecology and landscape.",
         country: "Nigeria",
       },
     ],
@@ -13195,7 +13195,7 @@ export const films = [
     published: "2011-05-11",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional documentary about climate, play and an unexpected factory encounter.",
+      "A documentary about climate, play and an unexpected factory encounter.",
     runtimeSeconds: 536,
     rating: "PG",
     form: "Documentary",
@@ -13220,7 +13220,7 @@ export const films = [
         slug: "dev-ghosh",
         primaryRole: "Sound Designer",
         biography:
-          "Dev Ghosh is a fictional filmmaker whose work explores movement and music.",
+          "Dev Ghosh is a filmmaker whose work explores movement and music.",
         country: "Canada",
       },
     ],
@@ -13260,7 +13260,7 @@ export const films = [
     published: "2018-06-12",
     editorialType: "Festival Coverage",
     synopsis:
-      "A fictional drama about identity, power and an unexpected island encounter.",
+      "A drama about identity, power and an unexpected island encounter.",
     runtimeSeconds: 619,
     rating: "15",
     form: "Drama",
@@ -13285,7 +13285,7 @@ export const films = [
         slug: "elian-jensen",
         primaryRole: "Animator",
         biography:
-          "Elian Jensen is a fictional filmmaker whose work explores technology and labour.",
+          "Elian Jensen is a filmmaker whose work explores technology and labour.",
         country: "Germany",
       },
     ],
@@ -13333,7 +13333,7 @@ export const films = [
     published: "2025-07-13",
     editorialType: "Best of Fest",
     synopsis:
-      "A fictional animation about community, home and an unexpected mountain encounter.",
+      "An animation about community, home and an unexpected mountain encounter.",
     runtimeSeconds: 702,
     rating: "U",
     form: "Animation",
@@ -13358,7 +13358,7 @@ export const films = [
         slug: "farah-chen",
         primaryRole: "Writer",
         biography:
-          "Farah Chen is a fictional filmmaker whose work explores family and belonging.",
+          "Farah Chen is a filmmaker whose work explores family and belonging.",
         country: "United Kingdom",
       },
     ],
@@ -13414,7 +13414,7 @@ export const films = [
     published: "2012-08-14",
     editorialType: "Interview",
     synopsis:
-      "A fictional experimental about grief, time and an unexpected school encounter.",
+      "An experimental film about grief, time and an unexpected school encounter.",
     runtimeSeconds: 785,
     rating: "15",
     form: "Experimental",
@@ -13439,7 +13439,7 @@ export const films = [
         slug: "gia-flores",
         primaryRole: "Production Designer",
         biography:
-          "Gia Flores is a fictional filmmaker whose work explores architecture and public space.",
+          "Gia Flores is a filmmaker whose work explores architecture and public space.",
         country: "Brazil",
       },
     ],
@@ -13503,7 +13503,7 @@ export const films = [
     published: "2019-09-15",
     editorialType: "Industry Insight",
     synopsis:
-      "A fictional documentary about play, memory and an unexpected river encounter.",
+      "A documentary about play, memory and an unexpected river encounter.",
     runtimeSeconds: 868,
     rating: "PG",
     form: "Documentary",
@@ -13567,7 +13567,7 @@ export const films = [
     published: "2026-10-16",
     editorialType: "Top Ten",
     synopsis:
-      "A fictional drama about power, place and an unexpected suburb encounter.",
+      "A drama about power, place and an unexpected suburb encounter.",
     runtimeSeconds: 951,
     rating: "15",
     form: "Drama",
@@ -13592,7 +13592,7 @@ export const films = [
         slug: "imani-bell",
         primaryRole: "Producer",
         biography:
-          "Imani Bell is a fictional filmmaker whose work explores performance and identity.",
+          "Imani Bell is a filmmaker whose work explores performance and identity.",
         country: "Ireland",
       },
     ],
@@ -13640,7 +13640,7 @@ export const films = [
     published: "2013-11-17",
     editorialType: "Review",
     synopsis:
-      "A fictional animation about home, family and an unexpected coast encounter.",
+      "An animation about home, family and an unexpected coast encounter.",
     runtimeSeconds: 1034,
     rating: "U",
     form: "Animation",
@@ -13665,7 +13665,7 @@ export const films = [
         slug: "jonah-el-amin",
         primaryRole: "Cinematographer",
         biography:
-          "Jonah El-Amin is a fictional filmmaker whose work explores community histories.",
+          "Jonah El-Amin is a filmmaker whose work explores community histories.",
         country: "Japan",
       },
     ],
@@ -13721,7 +13721,7 @@ export const films = [
     published: "2020-12-18",
     editorialType: "Curated Collection",
     synopsis:
-      "A fictional experimental about time, belonging and an unexpected city encounter.",
+      "An experimental film about time, belonging and an unexpected city encounter.",
     runtimeSeconds: 1117,
     rating: "12A",
     form: "Experimental",
@@ -13746,7 +13746,7 @@ export const films = [
         slug: "kira-haddad",
         primaryRole: "Editor",
         biography:
-          "Kira Haddad is a fictional filmmaker whose work explores ecology and landscape.",
+          "Kira Haddad is a filmmaker whose work explores ecology and landscape.",
         country: "Netherlands",
       },
     ],
