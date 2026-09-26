@@ -4,23 +4,23 @@ import LatestFilms from "./components/LatestFilms";
 import AwardLegend from "./components/AwardLegend";
 import FilmCollection from "./components/FilmCollection";
 import Footer from "./components/Footer";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import CookiePolicy from "./pages/CookiePolicy";
 
 import { films } from "./data/films";
 import { awards } from "./data/awards";
+import { loadProgramme, saveProgramme } from "./utils/programmeStorage";
+import { useHashRoute } from "./utils/useHashRoute";
 
-const PROGRAMME_STORAGE_KEY = "programmeIds";
-
-// Programme saved from a previous visit; storage can be unavailable or hold bad data.
-function loadProgramme() {
-  try {
-    const saved = JSON.parse(localStorage.getItem(PROGRAMME_STORAGE_KEY));
-    return Array.isArray(saved) ? saved : [];
-  } catch {
-    return [];
-  }
-}
+const pages = {
+  "/privacy-policy": PrivacyPolicy,
+  "/cookie-policy": CookiePolicy,
+};
 
 function App() {
+  const path = useHashRoute();
+  const Page = pages[path];
+
   const [selectedFilter, setSelectedFilter] = useState("all");
   // Award names currently selected as category filters ([] = all categories).
   const [categoryFilters, setCategoryFilters] = useState([]);
@@ -29,11 +29,7 @@ function App() {
 
   // Save the programme whenever it changes so it survives a page refresh.
   useEffect(() => {
-    try {
-      localStorage.setItem(PROGRAMME_STORAGE_KEY, JSON.stringify(programmeIds));
-    } catch {
-      // Storage unavailable (e.g. private browsing); the programme just won't persist.
-    }
+    saveProgramme(programmeIds);
   }, [programmeIds]);
 
   const toggleCategory = (awardName) => {
@@ -57,28 +53,34 @@ function App() {
       <Header />
 
       <main>
-        <LatestFilms
-          films={films}
-          awards={awards}
-          programmeIds={programmeIds}
-          onToggleProgramme={toggleProgramme}
-        />
-        <AwardLegend
-          awards={awards}
-          categoryFilters={categoryFilters}
-          onToggleCategory={toggleCategory}
-          onClearCategories={() => setCategoryFilters([])}
-          selectedFilter={selectedFilter}
-          setSelectedFilter={setSelectedFilter}
-        />
-        <FilmCollection
-          films={films}
-          awards={awards}
-          selectedFilter={selectedFilter}
-          categoryFilters={categoryFilters}
-          programmeIds={programmeIds}
-          onToggleProgramme={toggleProgramme}
-        />
+        {Page ? (
+          <Page />
+        ) : (
+          <>
+            <LatestFilms
+              films={films}
+              awards={awards}
+              programmeIds={programmeIds}
+              onToggleProgramme={toggleProgramme}
+            />
+            <AwardLegend
+              awards={awards}
+              categoryFilters={categoryFilters}
+              onToggleCategory={toggleCategory}
+              onClearCategories={() => setCategoryFilters([])}
+              selectedFilter={selectedFilter}
+              setSelectedFilter={setSelectedFilter}
+            />
+            <FilmCollection
+              films={films}
+              awards={awards}
+              selectedFilter={selectedFilter}
+              categoryFilters={categoryFilters}
+              programmeIds={programmeIds}
+              onToggleProgramme={toggleProgramme}
+            />
+          </>
+        )}
       </main>
 
       <Footer />

@@ -10,12 +10,15 @@ if (hasDom) {
   // carousel can be tested by asserting on the calls.
   Element.prototype.scrollBy = vi.fn();
   Element.prototype.scrollTo = vi.fn();
+  window.scrollTo = vi.fn();
 }
 
 afterEach(() => {
   if (hasDom) {
     cleanup();
     localStorage.clear();
+    // Tests that open a policy page change the URL hash; start each test on the home page.
+    history.replaceState(null, "", "/");
   }
   vi.clearAllMocks();
 });

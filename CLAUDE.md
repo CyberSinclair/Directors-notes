@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project overview
 
-"Short Film Programme Builder" for a fictional cinema (Creative Processes Cinema), built as a bootcamp exercise. Users browse short films, filter by award status/category, and pick films for a single screening programme with a 30–45 minute combined-runtime target.
+"Focal lens Films", a short-film site (started as a bootcamp exercise). Users browse short films, filter by award status/category, and pick films for a single screening programme with a 30–45 minute combined-runtime target. The site is presented as a real film site: visitor-facing text and data must not describe the content as fictional (a regression test enforces this).
 
 The repo has two parts:
 
@@ -48,9 +48,11 @@ First-time e2e setup: `npx playwright install chromium`.
 ## Architecture
 
 - `app/src/main.jsx` mounts `<App />` and imports the global stylesheet `styles/style.css` (ported from the root static mockup). `App.css` is Vite template leftover and is not imported.
-- `App.jsx` owns all state and passes it down as props: `selectedFilter` (`"all" | "winner" | "nominated"`), `categoryFilters` (array of award `name`s; empty = all, several = union), and `programmeIds` (ids of films added to the programme, toggled from cards in both the carousel and the grid; persisted to `localStorage` under `programmeIds`). There is no router, context, or state library.
+- `App.jsx` owns all state and passes it down as props: `selectedFilter` (`"all" | "winner" | "nominated"`), `categoryFilters` (array of award `name`s; empty = all, several = union), and `programmeIds` (ids of films added to the programme, toggled from cards in both the carousel and the grid; persisted to `localStorage` via `app/src/utils/programmeStorage.js`). There is no context or state library.
+- Pages use hash routing (`app/src/utils/useHashRoute.js`): `/#/privacy-policy` and `/#/cookie-policy` (linked from the footer) render `app/src/pages/*` inside `<main>` in place of the film sections; any other hash shows the home page. App state survives page changes because `App` stays mounted. Register new pages in the `pages` map in `App.jsx`.
+- The policy pages describe what the site really does (no cookies; one `localStorage` key). The Cookie Policy renders `PROGRAMME_STORAGE_KEY` from `programmeStorage.js`, and an e2e test checks the site sets no cookies and stores only that key, so adding cookies, storage, analytics or third-party scripts means updating the policies and those tests. Site name, privacy contact email and "last updated" date are in `app/src/data/site.js`.
 - Data is static JS modules in `app/src/data/`:
-  - `films.js` — large generated dataset of fictional films. Each film has `synopsis`, `runtimeSeconds` (`null` for 15 films — shown as "Runtime not recorded"), `rating` (UK-style: `U`, `PG`, `12A`, `15`), `published` (the carousel shows the 10 most recent), `genres[]`, `directors[]` (objects), `poster` (path relative to `app/public`, e.g. `images/film-001.svg`), and `honours[]`.
+  - `films.js` — large generated film dataset. Each film has `synopsis`, `runtimeSeconds` (`null` for 15 films — shown as "Runtime not recorded"), `rating` (UK-style: `U`, `PG`, `12A`, `15`), `published` (the carousel shows the 10 most recent), `genres[]`, `directors[]` (objects), `poster` (path relative to `app/public`, e.g. `images/film-001.svg`), and `honours[]`.
   - `awards.js` — award definitions (`id`, `name`, `category`, `description`).
   - Linking: `film.honours[].bodyId` references either an award `id` (`award-xxx`, `bodyType: "Award"`) or a festival (`festival-xxx`, `bodyType: "Festival"`). Every film has at least one `Award` honour, and each award is referenced by 15 films (5 each of `Winner`, `Nominated`, `Shortlisted`), so every award/status filter combination has films. `honours[].result` is one of `Winner`, `Nominated`, `Shortlisted`, `Longlisted`, `Special Mention`, `Official Selection`.
 - Components (`app/src/components/`): `FilmCard` is the shared presentational card used by both `LatestFilms` (carousel) and `FilmCollection` (filtered grid); `AwardLegend` renders the filter buttons that set App state.
