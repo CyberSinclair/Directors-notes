@@ -22,7 +22,7 @@ permissions:
 jobs:
   checks:
     name: Quality & tests
-    uses: CyberSinclair/ci-workflows/.github/workflows/node-ci.yml@6d1d3aad8198940cb37571c47826ac1ba71a9547 # v1.0.0
+    uses: CyberSinclair/ci-workflows/.github/workflows/node-ci.yml@fa7fc60471579f10cfb68cb1708ada63af94a999 # v1.2.0
     with:
       working-directory: app
 
